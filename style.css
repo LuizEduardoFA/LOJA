@@ -9,3 +9,10 @@ h1 {
     display: flex;
     justify-content: center;
 }
+h2 { 
+    color: #e5e0df;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
