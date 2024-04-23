@@ -1,18 +1,13 @@
-body{
- background-color: black;
-
-}
-h1 { 
-    color: #e5e0df;
-    font-size: 75px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content:right;
-}
-h2 { 
-    color: #e5e0df;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    justify-content:right;
-}
+</style>
+</head>
+<body>
+    <h1>Loja de Cartas Pokémon TCG</h1>
+    <div class="card">
+        <img src="caminho_para_imagem_da_carta" alt="Imagem da Carta">
+        <h2>Nome da Carta</h2>
+        <p>Preço: R$00,00</p>
+        <button>Comprar</button>
+    </div>
+    <!-- Repita o bloco .card para cada carta que você deseja vender -->
+</body>
+</html>
