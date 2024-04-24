@@ -29,6 +29,7 @@ body{
 }
 .card img {
     width: 100%;
+    border: #000;
 }
 .card h2 {
     font-size: 20px;
