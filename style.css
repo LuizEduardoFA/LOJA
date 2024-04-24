@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #FF4500;
 }
 .card {
     border: 1px solid #000;
@@ -16,4 +17,7 @@ body {
 }
 .card p {
     font-size: 16px;
+}
+div.center-text {
+    text-align: center;
 }
