@@ -36,7 +36,13 @@ body{
 .card p {
     font-size: 16px;
 }
- 
+.card button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  
+  }
 
 .card1 {
     margin-right: 20px;
@@ -56,6 +62,13 @@ body{
 .card1 p {
     font-size: 16px;
 }
+.card1 button {
+  size: 25px;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+
+}
 
 
 .card2 {
@@ -67,16 +80,22 @@ body{
     text-align:center;
  
 }
-.card1 img {
+.card2 img {
     width: 100%;
 }
-.card1 h2 {
+.card2 h2 {
     font-size: 20px;
 }
-.card1 p {
+.card2 p {
     font-size: 16px;
 }
-
+.card2 button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  
+  }
 
 .card3 {
     margin-right: 20px;
@@ -87,12 +106,18 @@ body{
     text-align:center;
 
 }
-.card1 img {
+.card3 img {
     width: 100%;
 }
-.card1 h2 {
+.card3 h2 {
     font-size: 20px;
 }
-.card1 p {
+.card3 p {
     font-size: 16px;
 }
+.card3 button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
