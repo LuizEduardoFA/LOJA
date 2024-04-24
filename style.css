@@ -3,9 +3,10 @@ body {
     background-color: #FFD700
    ;
 }
-div.center-text {
+header {
     text-align: center;
     font-size: large;
+    color:#000000;
 }
 .card {
     border: 1px solid #000;
