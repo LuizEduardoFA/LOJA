@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     color: #FF4500;
 }
+div.center-text {
+    text-align: center;
+}
 .card {
     border: 1px solid #000;
     width: 200px;
@@ -18,6 +21,25 @@ body {
 .card p {
     font-size: 16px;
 }
-div.center-text {
-    text-align: center;
+ 
+
+
+
+
+
+.card1 {
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+}
+.card1 img {
+    width: 100%;
+}
+.card1 h2 {
+    font-size: 20px;
+}
+.card1 p {
+    font-size: 16px;
 }
