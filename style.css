@@ -14,7 +14,7 @@ body{
 
 
 .first{
-    display: inline-block;
+    display: flex;
 }
 
 
@@ -151,5 +151,5 @@ body{
   }
 
   .second{
-    display: inline-block;
+    display:flexbox;
   }
