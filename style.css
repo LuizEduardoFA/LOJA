@@ -39,10 +39,10 @@ body{
 }
 .card button {
     size: 25px;
-    color: red;
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    background-color: black;
+    background-color: rgb(255, 0, 0);
   
   }
 
