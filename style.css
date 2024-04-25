@@ -151,5 +151,5 @@ body{
   }
 
   .second{
-    display: inline;
+    display: inline-block;
   }
