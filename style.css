@@ -393,11 +393,11 @@ body{
 
     display: flex;
       
-    /* flex-flow: wrap; */  
+
     flex-wrap: wrap; 
     align-content: flex-start;
 
-    background-color: #bbdefb;
+    
     height: 100%;
     padding: 15px;
     gap: 5px;
