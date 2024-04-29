@@ -388,3 +388,42 @@ body{
   .second{
     display:flexbox;
   }
+
+  .flex-container {
+
+    display: flex;
+      
+    /* flex-flow: wrap; */  
+    flex-wrap: wrap; 
+    align-content: flex-start;
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+
+  <div class="flex-container">
+   
+    <div class="card">card</div>
+    <div class="item2">item 2</div>
+    <div class="item3">item 3</div>
+    <div class="item4">item 4</div>
+    <div class="item5">item 5</div>
+    <div class="item6">item 6</div>
+    <div class="item7">item 7</div>
+    <div class="item8">item 8</div>
+    <div class="item9">item 9</div>
+    <div class="item10">item 10</div>
+    <div class="item11">item 11</div>
+
+</div>
