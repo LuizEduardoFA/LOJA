@@ -230,6 +230,161 @@ body{
     font-size: medium;
   }
 
+
+  .card8 {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card8 img {
+    width: 100%;
+}
+.card8 h2 {
+    font-size: 20px;
+}
+.card8 p {
+    font-size: 16px;
+}
+.card8 button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+
+
+  .card1a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card1a img {
+    width: 100%;
+}
+.card1a h2 {
+    font-size: 20px;
+}
+.card1a p {
+    font-size: 16px;
+}
+.card1a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+
+
+  .card2a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card2a img {
+    width: 100%;
+}
+.card2a h2 {
+    font-size: 20px;
+}
+.card2a p {
+    font-size: 16px;
+}
+.card2a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+
+
+  .card3a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card3a img {
+    width: 100%;
+}
+.card3a h2 {
+    font-size: 20px;
+}
+.card3a p {
+    font-size: 16px;
+}
+.card3a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+
+
+  .card4a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card4a img {
+    width: 100%;
+}
+.card4a h2 {
+    font-size: 20px;
+}
+.card4a p {
+    font-size: 16px;
+}
+.card4a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+
+
+  .card4a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card5a img {
+    width: 100%;
+}
+.card5a h2 {
+    font-size: 20px;
+}
+.card5a p {
+    font-size: 16px;
+}
+.card5a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
   .second{
     display:flexbox;
   }
