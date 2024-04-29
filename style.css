@@ -386,14 +386,15 @@ body{
     font-size: medium;
   }
   .second{
-    display:flex;
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: flex-start;
+
   }
 
   .flex-container {
 
     display: flex;
-      
-
     flex-wrap: wrap; 
     align-content: flex-start;
 
