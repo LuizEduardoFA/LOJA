@@ -405,8 +405,8 @@ body{
   }
 
   .flex-container > div{
-    background: #ffe600;
-    border: 3px solid #ff5100;
+    background: #ff0000;
+    border: 3px solid #ffd000;
     border-radius: 5px;
     padding: 8px;
   }
