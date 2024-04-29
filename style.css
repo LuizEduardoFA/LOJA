@@ -370,21 +370,9 @@ body{
     text-align:center;
 
 }
-.card5a img {
-    width: 100%;
-}
-.card5a h2 {
-    font-size: 20px;
-}
-.card5a p {
-    font-size: 16px;
-}
-.card5a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-  }
+
+
+
   .second{
     display: flex;
     flex-wrap: wrap; 
