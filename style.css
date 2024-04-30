@@ -24,16 +24,9 @@ body{
     width: 150px;
     padding: 7px;
     margin: 7px;
-    text-align:
-    …    size: 25px;
-        color: rgb(0, 0, 0);
-        font-family: 'Courier New', Courier, monospace;
-        font-size: medium;
-        background-color: rgb(255, 0, 0);
-      
-      } center;
-   
-}
+    text-align:center;
+
+ } 
 .card img {
     width: 90%;
     
