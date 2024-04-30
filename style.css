@@ -361,7 +361,7 @@ body{
   }
 
 
-  .card4a {
+  .card5a {
     margin-right: 20px;
     border: 1px solid #000;
     width: 200px;
@@ -370,8 +370,125 @@ body{
     text-align:center;
 
 }
+.card5a img {
+    width: 100%;
+}
+.card5a h2 {
+    font-size: 20px;
+}
+.card5a p {
+    font-size: 16px;
+}
+.card5a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
 
 
+  .card6a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card6a img {
+    width: 100%;
+}
+.card6a h2 {
+    font-size: 20px;
+}
+.card6a p {
+    font-size: 16px;
+}
+.card6a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+
+
+  .card7a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card7a img {
+    width: 100%;
+}
+.card7a h2 {
+    font-size: 20px;
+}
+.card7a p {
+    font-size: 16px;
+}
+.card7a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+
+
+  .card8a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card8a img {
+    width: 100%;
+}
+.card8a h2 {
+    font-size: 20px;
+}
+.card8a p {
+    font-size: 16px;
+}
+.card8a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
+
+
+  .card9a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card9a img {
+    width: 100%;
+}
+.card9a h2 {
+    font-size: 20px;
+}
+.card9a p {
+    font-size: 16px;
+}
+.card9a button {
+    size: 25px;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+  }
 
   .second{
     display: flex;
