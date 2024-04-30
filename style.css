@@ -256,9 +256,17 @@ body{
     font-size: medium;
   }
 
+  .card1a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
 .card1a img {
     width: 100%;
-   
 }
 .card1a h2 {
     font-size: 20px;
@@ -268,11 +276,9 @@ body{
 }
 .card1a button {
     size: 25px;
-    color: rgb(0, 0, 0);
+    color: red;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    background-color: rgb(255, 0, 0);
-  
   }
 
 .card2a {
