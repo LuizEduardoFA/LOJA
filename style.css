@@ -47,25 +47,25 @@ body{
   }
 
 .card1 {
-    margin-right: 20px;
+    margin-right: 19px;
     border: 1px solid #000;
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
+    width: 190px;
+    padding: 9px;
+    margin: 9px;
     text-align:center;
   
 }
 .card1 img {
-    width: 100%;
+    width: 95%;
 }
 .card1 h2 {
-    font-size: 20px;
+    font-size: 19px;
 }
 .card1 p {
-    font-size: 16px;
+    font-size: 15px;
 }
 .card1 button {
-  size: 25px;
+  size: 24px;
   color: red;
   font-family: 'Courier New', Courier, monospace;
   font-size: medium;
