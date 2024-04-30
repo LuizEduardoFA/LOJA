@@ -19,11 +19,11 @@ body{
 
 
 .card {
-    margin-right: 15px;
+    margin-right: 19px;
     border: 1px solid #000;
-    width: 150px;
-    padding: 7px;
-    margin: 7px;
+    width: 190px;
+    padding: 9px;
+    margin: 9px;
     text-align:center;
 
  } 
@@ -32,13 +32,13 @@ body{
     
 }
 .card h2 {
-    font-size: 15px;
+    font-size: 19px;
 }
 .card p {
-    font-size: 15px;
+    font-size: 19px;
 }
 .card button {
-    size: 25px;
+    size: 20px;
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
@@ -56,7 +56,7 @@ body{
   
 }
 .card1 img {
-    width: 95%;
+    width: 90%;
 }
 .card1 h2 {
     font-size: 19px;
