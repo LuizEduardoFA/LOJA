@@ -28,14 +28,14 @@ body{
    
 }
 .card img {
-    width: 100%;
+    width: 75%;
     border: #000;
 }
 .card h2 {
-    font-size: 20px;
+    font-size: 15px;
 }
 .card p {
-    font-size: 16px;
+    font-size: 15px;
 }
 .card button {
     size: 25px;
