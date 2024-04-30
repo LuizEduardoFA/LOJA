@@ -24,12 +24,19 @@ body{
     width: 150px;
     padding: 7px;
     margin: 7px;
-    text-align: center;
+    text-align:
+    …    size: 25px;
+        color: rgb(0, 0, 0);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        background-color: rgb(255, 0, 0);
+      
+      } center;
    
 }
 .card img {
-    width: 75%;
-    border: #000;
+    width: 90%;
+    
 }
 .card h2 {
     font-size: 15px;
