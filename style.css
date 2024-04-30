@@ -256,9 +256,9 @@ body{
     font-size: medium;
   }
 
-  .card1a img {
+.card1a img {
     width: 100%;
-    border: #000;
+   
 }
 .card1a h2 {
     font-size: 20px;
