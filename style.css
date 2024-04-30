@@ -256,18 +256,9 @@ body{
     font-size: medium;
   }
 
-
-  .card1a {
-    margin-right: 20px;
-    border: 1px solid #000;
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    text-align:center;
-
-}
-.card1a img {
+  .card1a img {
     width: 100%;
+    border: #000;
 }
 .card1a h2 {
     font-size: 20px;
@@ -277,20 +268,21 @@ body{
 }
 .card1a button {
     size: 25px;
-    color: red;
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
+    background-color: rgb(255, 0, 0);
+  
   }
 
-
-  .card2a {
+.card2a {
     margin-right: 20px;
     border: 1px solid #000;
     width: 200px;
     padding: 10px;
     margin: 10px;
     text-align:center;
-
+  
 }
 .card2a img {
     width: 100%;
@@ -298,25 +290,26 @@ body{
 .card2a h2 {
     font-size: 20px;
 }
-.card2a p {
+.card2ap {
     font-size: 16px;
 }
 .card2a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-  }
+  size: 25px;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+
+}
 
 
-  .card3a {
+.card3a {
     margin-right: 20px;
     border: 1px solid #000;
     width: 200px;
     padding: 10px;
     margin: 10px;
     text-align:center;
-
+ 
 }
 .card3a img {
     width: 100%;
@@ -332,10 +325,10 @@ body{
     color: red;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
+  
   }
 
-
-  .card4a {
+.card4a {
     margin-right: 20px;
     border: 1px solid #000;
     width: 200px;
@@ -370,6 +363,8 @@ body{
     text-align:center;
 
 }
+
+
 .card5a img {
     width: 100%;
 }
@@ -490,23 +485,7 @@ body{
     font-size: medium;
   }
 
-  .second{
-    display: flex;
-    flex-wrap: wrap; 
-    align-content: flex-start;
-
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
-}
-    .second > div{
-        background: #ff0000;
-        border: 3px solid #ffd000;
-        border-radius: 5px;
-        padding: 8px;
-
-    }
-
+  
 
   .flex-container {
 
@@ -529,4 +508,19 @@ body{
   }
 
 
-  
+  .second{
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: flex-start;
+
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+}
+    .second > div{
+        background: #ff0000;
+        border: 3px solid #ffd000;
+        border-radius: 5px;
+        padding: 8px;
+
+    }
