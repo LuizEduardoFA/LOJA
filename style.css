@@ -45,11 +45,11 @@ body{
   }
 
 .card1 {
-    margin-right: 19px;
+    margin-right: 20px;
     border: 1px solid #000;
-    width: 190px;
-    padding: 9px;
-    margin: 9px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
     text-align:center;
   
 }
@@ -150,6 +150,16 @@ body{
     font-size: medium;
   }
 
+
+  .card1a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+  
+}
 
 .card1a img {
     width: 100%;
