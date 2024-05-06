@@ -407,6 +407,16 @@ body{
     flex-wrap: wrap; 
     align-content: flex-start;
 
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+    .second > div{
+        background: #ff0000;
+        border: 3px solid #ffd000;
+        border-radius: 5px;
+        padding: 8px;
+      }
 }
 
    
