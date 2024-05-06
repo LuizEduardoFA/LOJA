@@ -51,7 +51,7 @@ body{
     transform: translate(5px, -5px);
   }
 
-  
+
 .card1 {
     margin-right: 20px;
     border: 1px solid #000;
@@ -528,5 +528,22 @@ body{
     border-radius: 5px;
     padding: 8px;
   }
-    
+
+
+    .flex-container{
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: flex-start;
+
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+}
+.flex-container > div{
+    background: #ff0000;
+    border: 3px solid #ffd000;
+    border-radius: 5px;
+    padding: 8px;
+  }
 }
