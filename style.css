@@ -495,7 +495,7 @@ body{
   
 
 
-  .second{
+  .line{
     display: flex;
     flex-wrap: wrap; 
     align-content: flex-start;
@@ -504,7 +504,7 @@ body{
     padding: 15px;
     gap: 5px;
 
-    .second > div{
+    .line > div{
         background: #ff0000;
         border: 3px solid #ffd000;
         border-radius: 5px;
@@ -512,22 +512,6 @@ body{
       }
 
 
-   .first{
-    display: flex;
-    flex-wrap: wrap; 
-    align-content: flex-start;
-
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
-
-}
-.first > div{
-    background: #ff0000;
-    border: 3px solid #ffd000;
-    border-radius: 5px;
-    padding: 8px;
-  }
 
 
     .flex-container{
