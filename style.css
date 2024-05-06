@@ -1,16 +1,18 @@
 header {
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:left ;
     font-size: large;
-    color:#FFFF00
-    
+    color:#FFFF00;
+    background-color: #fff;
 } 
-
+header img{
+    width: 100%;
+    
+    
+}
 
 body{
     font-family: Arial, sans-serif;
-    background-color: #FFD700
-   ;
+    background-color: #FFD700;
 }
 
 
