@@ -658,7 +658,7 @@ body{
 
 .flex-container > div{
     background: #999999;
-    border: 3px solid #ffd000;
+    border: 3px solid #ff7b00;
     border-radius: 5px;
     padding: 8px;
   }
@@ -677,7 +677,7 @@ body{
     /* flex-flow: wrap; */  
     flex-wrap: wrap; 
 
-    background-color: #bbdefb;
+    background-color: #ff7b00;
     height: 100%;
     padding: 15px;
     gap: 5px;
