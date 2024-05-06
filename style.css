@@ -36,11 +36,15 @@ body{
     font-size: 16px;
 }
 .card button {
-    size: 20px;
-    color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    background-color: rgb(51, 255, 0);
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
   
   }
 
@@ -63,10 +67,15 @@ body{
     font-size: 16px;
 }
 .card1 button {
-  size: 24px;
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: medium;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
 
 }
 
@@ -90,10 +99,15 @@ body{
     font-size: 16px;
 }
 .card2 button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
   
   }
 
@@ -116,10 +130,15 @@ body{
     font-size: 16px;
 }
 .card3 button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
   }
 
 
@@ -144,14 +163,19 @@ body{
     font-size: 16px;
 }
 .card4 button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
   }
 
 
-  .card1a {
+.card1a {
     margin-right: 20px;
     border: 1px solid #000;
     width: 200px;
@@ -171,10 +195,15 @@ body{
     font-size: 16px;
 }
 .card1a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px yellow;
   }
 
 .card2a {
@@ -196,11 +225,15 @@ body{
     font-size: 16px;
 }
 .card2a button {
-  size: 25px;
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: medium;
-
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
 }
 
 
@@ -223,11 +256,15 @@ body{
     font-size: 16px;
 }
 .card3a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-  
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
   }
 
 .card4a {
@@ -249,10 +286,15 @@ body{
     font-size: 16px;
 }
 .card4a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
   }
 
 
@@ -277,10 +319,15 @@ body{
     font-size: 16px;
 }
 .card5a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px yellow;
   }
 
 
@@ -303,10 +350,15 @@ body{
     font-size: 16px;
 }
 .card6a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px yellow;
   }
 
 
@@ -329,10 +381,15 @@ body{
     font-size: 16px;
 }
 .card7a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px yellow;
   }
 
 
@@ -355,10 +412,15 @@ body{
     font-size: 16px;
 }
 .card8a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
   }
 
 
@@ -381,10 +443,15 @@ body{
     font-size: 16px;
 }
 .card9a button {
-    size: 25px;
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
   }
 
   
