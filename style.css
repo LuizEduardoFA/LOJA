@@ -51,6 +51,7 @@ body{
     transform: translate(5px, -5px);
   }
 
+  
 .card1 {
     margin-right: 20px;
     border: 1px solid #000;
@@ -84,6 +85,7 @@ body{
 .card1 button:hover {
     transform: translate(5px, -5px);
   }
+
 
 .card2 {
     margin-right: 20px;
@@ -119,6 +121,7 @@ body{
     transform: translate(5px, -5px);
   }
 
+
 .card3 {
     margin-right: 20px;
     border: 1px solid #000;
@@ -152,17 +155,15 @@ body{
     transform: translate(5px, -5px);
   }
 
-  .card4 {
+
+.card4 {
     margin-right: 20px;
     border: 1px solid #000;
     width: 200px;
     padding: 10px;
     margin: 10px;
     text-align:center;
-
 }
-
-
 .card4 img {
     width: 100%;
 }
@@ -182,6 +183,9 @@ body{
     font-weight: bolder;
     transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
     box-shadow: -5px 5px 0px 0px yellow;
+  }
+  .card4 button:hover {
+    transform: translate(5px, -5px);
   }
 
 
@@ -215,7 +219,9 @@ body{
   transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
   box-shadow: -5px 5px 0px 0px yellow;
   }
-
+  .card1a button:hover {
+    transform: translate(5px, -5px);
+  }
 .card2a {
     margin-right: 20px;
     border: 1px solid #000;
@@ -245,6 +251,9 @@ body{
     transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
     box-shadow: -5px 5px 0px 0px yellow;
 }
+.card2a button:hover {
+    transform: translate(5px, -5px);
+  }
 
 
 .card3a {
@@ -276,6 +285,10 @@ body{
     transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
     box-shadow: -5px 5px 0px 0px yellow;
   }
+.card3a button:hover {
+    transform: translate(5px, -5px);
+  }
+
 
 .card4a {
     margin-right: 20px;
@@ -284,7 +297,6 @@ body{
     padding: 10px;
     margin: 10px;
     text-align:center;
-
 }
 .card4a img {
     width: 100%;
@@ -306,6 +318,9 @@ body{
     transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
     box-shadow: -5px 5px 0px 0px yellow;
   }
+.card4a button:hover {
+    transform: translate(5px, -5px);
+  }
 
 
   .card5a {
@@ -315,10 +330,7 @@ body{
     padding: 10px;
     margin: 10px;
     text-align:center;
-
 }
-
-
 .card5a img {
     width: 100%;
 }
@@ -339,6 +351,10 @@ body{
   transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
   box-shadow: -5px 5px 0px 0px yellow;
   }
+  .card5a button:hover {
+    transform: translate(5px, -5px);
+  }
+
 
 
   .card6a {
@@ -370,6 +386,9 @@ body{
   transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
   box-shadow: -5px 5px 0px 0px yellow;
   }
+  .card6a button:hover {
+    transform: translate(5px, -5px);
+  }
 
 
   .card7a {
@@ -379,7 +398,6 @@ body{
     padding: 10px;
     margin: 10px;
     text-align:center;
-
 }
 .card7a img {
     width: 100%;
@@ -401,6 +419,9 @@ body{
   transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
   box-shadow: -5px 5px 0px 0px yellow;
   }
+.card7a button:hover {
+    transform: translate(5px, -5px);
+  }
 
 
   .card8a {
@@ -410,7 +431,6 @@ body{
     padding: 10px;
     margin: 10px;
     text-align:center;
-
 }
 .card8a img {
     width: 100%;
@@ -431,6 +451,9 @@ body{
     font-weight: bolder;
     transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
     box-shadow: -5px 5px 0px 0px yellow;
+  }
+  .card8a button:hover {
+    transform: translate(5px, -5px);
   }
 
 
@@ -463,8 +486,9 @@ body{
     transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
     box-shadow: -5px 5px 0px 0px yellow;
   }
-
-  
+  .card9a button:hover {
+    transform: translate(5px, -5px);
+  }
 
  
 
