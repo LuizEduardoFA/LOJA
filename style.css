@@ -776,5 +776,9 @@ body{
 .card promoção img{
     animation: alternate;
     transform: translate;
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-efeito-de-zoom-gradiente_23-2149694913.jpg?t=st=1715019690~exp=1715023290~hmac=c1317d8ec8afe5114df37d812216a7791f1bf7f40f356a86369366f038e93b02&w=740'), url('https://mox.land/cdn/shop/products/SWSH06_PTBR_168-2x.jpg?v=1684235698');
+    width: 100%;
+
+
 }
 }
