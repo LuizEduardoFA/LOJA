@@ -523,6 +523,17 @@ body{
     padding: 15px;
     gap: 5px;
 
+    display: flex;
+      
+    /* flex-flow: wrap; */  
+    flex-wrap: wrap; 
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
 }
 .flex-container > div{
     background: #ff0000;
