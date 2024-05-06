@@ -16,179 +16,6 @@ body{
 
 
 
-.card {
-    margin-right: 20px;
-    border: 1px solid #000;
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    text-align:center;
-
- } 
-.card img {
-    width: 100%;
-    
-}
-.card h2 {
-    font-size: 20px;
-}
-.card p {
-    font-size: 16px;
-}
-.card button {
-    font-size: 1rem;
-    padding: 0.8em 2em;
-    background-color: #000;
-    border: 3px solid yellow;
-    border-radius: 1em;
-    color: #fff;
-    font-weight: bolder;
-    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-    box-shadow: -5px 5px 0px 0px yellow;
-  
-  }
-  .card button:hover {
-    transform: translate(5px, -5px);
-  }
-
-
-.card1 {
-    margin-right: 20px;
-    border: 1px solid #000;
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    text-align:center;
-  
-}
-.card1 img {
-    width: 100%;
-}
-.card1 h2 {
-    font-size: 20px;
-}
-.card1 p {
-    font-size: 16px;
-}
-.card1 button {
-    font-size: 1rem;
-    padding: 0.8em 2em;
-    background-color: #000;
-    border: 3px solid yellow;
-    border-radius: 1em;
-    color: #fff;
-    font-weight: bolder;
-    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-    box-shadow: -5px 5px 0px 0px yellow;
-
-}
-.card1 button:hover {
-    transform: translate(5px, -5px);
-  }
-
-
-.card2 {
-    margin-right: 20px;
-    border: 1px solid #000;
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    text-align:center;
- 
-}
-.card2 img {
-    width: 100%;
-}
-.card2 h2 {
-    font-size: 20px;
-}
-.card2 p {
-    font-size: 16px;
-}
-.card2 button {
-    font-size: 1rem;
-    padding: 0.8em 2em;
-    background-color: #000;
-    border: 3px solid yellow;
-    border-radius: 1em;
-    color: #fff;
-    font-weight: bolder;
-    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-    box-shadow: -5px 5px 0px 0px yellow;
-  
-  }
-  .card2 button:hover {
-    transform: translate(5px, -5px);
-  }
-
-
-.card3 {
-    margin-right: 20px;
-    border: 1px solid #000;
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    text-align:center;
-
-}
-.card3 img {
-    width: 100%;
-}
-.card3 h2 {
-    font-size: 20px;
-}
-.card3 p {
-    font-size: 16px;
-}
-.card3 button {
-    font-size: 1rem;
-    padding: 0.8em 2em;
-    background-color: #000;
-    border: 3px solid yellow;
-    border-radius: 1em;
-    color: #fff;
-    font-weight: bolder;
-    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-    box-shadow: -5px 5px 0px 0px yellow;
-  }
-  .card3 button:hover {
-    transform: translate(5px, -5px);
-  }
-
-
-.card4 {
-    margin-right: 20px;
-    border: 1px solid #000;
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    text-align:center;
-}
-.card4 img {
-    width: 100%;
-}
-.card4 h2 {
-    font-size: 20px;
-}
-.card4 p {
-    font-size: 16px;
-}
-.card4 button {
-    font-size: 1rem;
-    padding: 0.8em 2em;
-    background-color: #000;
-    border: 3px solid yellow;
-    border-radius: 1em;
-    color: #fff;
-    font-weight: bolder;
-    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-    box-shadow: -5px 5px 0px 0px yellow;
-  }
-  .card4 button:hover {
-    transform: translate(5px, -5px);
-  }
-
-
 .card1a {
     margin-right: 20px;
     border: 1px solid #000;
@@ -196,9 +23,8 @@ body{
     padding: 10px;
     margin: 10px;
     text-align:center;
-  
-}
 
+}
 .card1a img {
     width: 100%;
 }
@@ -222,6 +48,8 @@ body{
   .card1a button:hover {
     transform: translate(5px, -5px);
   }
+
+
 .card2a {
     margin-right: 20px;
     border: 1px solid #000;
@@ -489,6 +317,305 @@ body{
   .card9a button:hover {
     transform: translate(5px, -5px);
   }
+  .card10a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card10a img {
+    width: 100%;
+}
+.card10a h2 {
+    font-size: 20px;
+}
+.card10a p {
+    font-size: 16px;
+}
+.card10a button {
+    font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px yellow;
+  }
+  .card10a button:hover {
+    transform: translate(5px, -5px);
+  }
+
+  
+.card11a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+  
+}
+.card11a img {
+    width: 100%;
+}
+.card11a h2 {
+    font-size: 20px;
+}
+.card11ap {
+    font-size: 16px;
+}
+.card11a button {
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+}
+.card11a button:hover {
+    transform: translate(5px, -5px);
+  }
+
+
+.card12a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+ 
+}
+.card12a img {
+    width: 100%;
+}
+.card12a h2 {
+    font-size: 20px;
+}
+.card12a p {
+    font-size: 16px;
+}
+.card12a button {
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+  }
+.card12a button:hover {
+    transform: translate(5px, -5px);
+  }
+
+
+.card13a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+}
+.card13a img {
+    width: 100%;
+}
+.card13a h2 {
+    font-size: 20px;
+}
+.card13a p {
+    font-size: 16px;
+}
+.card13a button {
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+  }
+.card13a button:hover {
+    transform: translate(5px, -5px);
+  }
+
+
+.card14a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+}
+.card14a img {
+    width: 100%;
+}
+.card14a h2 {
+    font-size: 20px;
+}
+.card14a p {
+    font-size: 16px;
+}
+.card14a button {
+    font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px yellow;
+  }
+  .card14a button:hover {
+    transform: translate(5px, -5px);
+  }
+  .card15a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card15a img {
+    width: 100%;
+}
+.card15a h2 {
+    font-size: 20px;
+}
+.card15a p {
+    font-size: 16px;
+}
+.card15a button {
+    font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px yellow;
+  }
+  .card15a button:hover {
+    transform: translate(5px, -5px);
+
+  }
+
+
+  .card16a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+}
+.card16a img {
+    width: 100%;
+}
+.card16a h2 {
+    font-size: 20px;
+}
+.card16a p {
+    font-size: 16px;
+}
+.card16a button {
+    font-size: 1rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid yellow;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px yellow;
+  }
+.card16a button:hover {
+    transform: translate(5px, -5px);
+  }
+
+
+  .card17a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+}
+.card17a img {
+    width: 100%;
+}
+.card17a h2 {
+    font-size: 20px;
+}
+.card17a p {
+    font-size: 16px;
+}
+.card17a button {
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+  }
+  .card17a button:hover {
+    transform: translate(5px, -5px);
+  }
+
+
+  .card18a {
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    text-align:center;
+
+}
+.card18a img {
+    width: 100%;
+}
+.card18a h2 {
+    font-size: 20px;
+}
+.card18a p {
+    font-size: 16px;
+}
+.card18a button {
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px yellow;
+  }
+  .card18a button:hover {
+    transform: translate(5px, -5px);
+  }
 
  
 
@@ -496,13 +623,26 @@ body{
 
 
   .line{
-    display: flex;
-    flex-wrap: wrap; 
-    align-content: flex-start;
+        display: flex;
+        flex-wrap: wrap; 
+        align-content: flex-start;
+    
+        height: 100%;
+        padding: 15px;
+        gap: 5px;
+    
+        display: flex;
+          
+        /* flex-flow: wrap; */  
+        flex-wrap: wrap; 
+    
+        background-color: #bbdefb;
+        height: 100%;
+        padding: 15px;
+        gap: 5px;
+    
+      }
 
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
 
     .line > div{
         background: #ff0000;
@@ -514,7 +654,16 @@ body{
 
 
 
-    .flex-container{
+    
+
+.flex-container > div{
+    background: #ff0000;
+    border: 3px solid #ffd000;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+.flex-container{
     display: flex;
     flex-wrap: wrap; 
     align-content: flex-start;
@@ -533,12 +682,5 @@ body{
     padding: 15px;
     gap: 5px;
 
-  }
-
-.flex-container > div{
-    background: #ff0000;
-    border: 3px solid #ffd000;
-    border-radius: 5px;
-    padding: 8px;
   }
 }
