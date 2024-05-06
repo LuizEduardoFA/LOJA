@@ -548,6 +548,8 @@ body{
   }
 .card16a button:hover {
     transform: translate(5px, -5px);
+    background-color: #fff;
+    color: #000;
   }
 
 
@@ -581,6 +583,8 @@ body{
   }
   .card17a button:hover {
     transform: translate(5px, -5px);
+    background-color: #fff;
+    color: #000;
   }
 
 
