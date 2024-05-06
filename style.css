@@ -765,6 +765,16 @@ body{
    align-content: center;
     width: 100%;
     border-radius: 10%;
+    z-index: -1; 
 }
-
+.card promoção img{
+    align-content: center;
+    width: 100%;
+    border-radius: 10%;
+    z-index: 1; 
+}
+.card promoção img{
+    animation: alternate;
+    transform: translate;
+}
 }
