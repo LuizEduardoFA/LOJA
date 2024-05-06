@@ -7,6 +7,8 @@ header {
 header img{
     width: 100%;
     align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap; 
     
 }
 
@@ -697,7 +699,7 @@ body{
     
         display: flex;
           
-        /* flex-flow: wrap; */  
+        
         flex-wrap: wrap; 
     
         
