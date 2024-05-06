@@ -17,23 +17,23 @@ body{
 
 
 .card {
-    margin-right: 19px;
+    margin-right: 20px;
     border: 1px solid #000;
-    width: 190px;
-    padding: 9px;
-    margin: 9px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
     text-align:center;
 
  } 
 .card img {
-    width: 90%;
+    width: 100%;
     
 }
 .card h2 {
-    font-size: 19px;
+    font-size: 20px;
 }
 .card p {
-    font-size: 19px;
+    font-size: 16px;
 }
 .card button {
     size: 20px;
@@ -54,13 +54,13 @@ body{
   
 }
 .card1 img {
-    width: 90%;
+    width: 100%;
 }
 .card1 h2 {
-    font-size: 19px;
+    font-size: 20px;
 }
 .card1 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 .card1 button {
   size: 24px;
