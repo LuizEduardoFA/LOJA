@@ -25,6 +25,10 @@ body{
     text-align:center;
 
 }
+.card1a: hover {
+
+
+}
 .card1a img {
     width: 100%;
     border-radius: 5%;
@@ -693,7 +697,7 @@ body{
         /* flex-flow: wrap; */  
         flex-wrap: wrap; 
     
-        background-color: #ff7b00;
+        
         height: 100%;
         padding: 15px;
         gap: 5px;
