@@ -47,6 +47,9 @@ body{
     box-shadow: -5px 5px 0px 0px yellow;
   
   }
+  .card button:hover {
+    transform: translate(5px, -5px);
+  }
 
 .card1 {
     margin-right: 20px;
@@ -112,6 +115,9 @@ body{
     box-shadow: -5px 5px 0px 0px yellow;
   
   }
+  .card2 button:hover {
+    transform: translate(5px, -5px);
+  }
 
 .card3 {
     margin-right: 20px;
@@ -142,7 +148,9 @@ body{
     transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
     box-shadow: -5px 5px 0px 0px yellow;
   }
-
+  .card3 button:hover {
+    transform: translate(5px, -5px);
+  }
 
   .card4 {
     margin-right: 20px;
