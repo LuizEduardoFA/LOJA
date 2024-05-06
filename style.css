@@ -27,6 +27,7 @@ body{
 }
 .card1a img {
     width: 100%;
+    border-radius: 10%;
 }
 .card1a h2 {
     font-size: 20px;
