@@ -218,7 +218,7 @@ body{
     background-color: #fff;
     color: #000;
   }
-  .card4a button a{
+  .card5a button a{
     text-decoration-color: #fff;
     text-decoration: none;
   }
@@ -300,7 +300,10 @@ body{
     background-color: #fff;
     color: #000;
   }
-
+  .card7a button a{
+    text-decoration-color: #fff;
+    text-decoration: none;
+  }
 
   .card8a {
     margin-right: 20px;
@@ -336,7 +339,10 @@ body{
     background-color: #fff;
     color: #000;
   }
-
+  .card8a button a{
+    text-decoration-color: #fff;
+    text-decoration: none;
+  }
 
   .card9a {
     margin-right: 20px;
@@ -373,6 +379,12 @@ body{
     background-color: #fff;
     color: #000;
   }
+  .card9a button a{
+    text-decoration-color: #fff;
+    text-decoration: none;
+  }
+
+
   .card10a {
     margin-right: 20px;
     border: 1px solid #000;
@@ -408,8 +420,12 @@ body{
     background-color: #fff;
     color: #000;
   }
-
+  .card10a button a{
+    text-decoration-color: #fff;
+    text-decoration: none;
+  }
   
+
 .card11a {
     margin-right: 20px;
     border: 1px solid #000;
@@ -444,6 +460,10 @@ body{
     transform: translate(5px, -5px);
     background-color: #fff;
     color: #000;
+  }
+  .card11a button a{
+    text-decoration-color: #fff;
+    text-decoration: none;
   }
 
 
