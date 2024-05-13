@@ -97,6 +97,10 @@ body{
     background-color: #fff;
     color: #000;
   }
+  .card2a button a{
+    background-color: #fff;
+    text-decoration: none;
+  }
 
 
 .card3a {
@@ -134,6 +138,10 @@ body{
     background-color: #fff;
     color: #000;
   }
+  .card3a button a{
+    background-color: #fff;
+    text-decoration: none;
+  }
 
 
 .card4a {
@@ -170,6 +178,10 @@ body{
     background-color: #fff;
     color: #000;
   }
+  .card4a button a{
+    background-color: #fff;
+    text-decoration: none;
+  }
 
 
   .card5a {
@@ -205,6 +217,10 @@ body{
     transform: translate(5px, -5px);
     background-color: #fff;
     color: #000;
+  }
+  .card4a button a{
+    background-color: #fff;
+    text-decoration: none;
   }
 
 
@@ -243,6 +259,10 @@ body{
     transform: translate(5px, -5px);
     background-color: #fff;
     color: #000;
+  }
+  .card6a button a{
+    background-color: #fff;
+    text-decoration: none;
   }
 
 
