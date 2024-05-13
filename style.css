@@ -11,6 +11,11 @@ header img{
     flex-wrap: wrap; 
     
 }
+.acss{
+align-items: end;
+
+}
+
 
 body{
     font-family: Arial, sans-serif;
