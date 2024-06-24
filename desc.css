@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.product-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+.product-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+.product-description {
+    margin-top: 20px;
+}
+.product-buttons {
+    margin-top: 20px;
+}
+.buy-button, .favorite-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.favorite-button {
+    background-color: #f00;
+}
