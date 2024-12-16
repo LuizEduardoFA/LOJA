@@ -1,8 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+
+  body {
+    background-color: #C0C0C0; /* Prata */
+    color: #000000; /* Preto */
+    line-height: 1.6;
+  }
+  
 .product-container {
     max-width: 800px;
     margin: 0 auto;
