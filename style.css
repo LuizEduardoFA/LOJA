@@ -41,6 +41,8 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px;
+  flex-wrap: wrap; 
+    align-content: flex-start;
 }
 
 /* Estilo do card de produto */
