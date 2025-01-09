@@ -1,203 +1,114 @@
+/* Resetando margens e padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
-
-header {
-  background-color: #000000; /* Preto */
-  color: #C0C0C0; /* Prata */
-  padding: 15px 20px;
-  text-align: center;
-  border-bottom: 3px solid #FF0000; /* Detalhe vermelho */
+/* Estilo para o corpo da página */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  padding-top: 50px;
 }
 
-header nav ul {
-  list-style: none;
+/* Estilo do header */
+.header-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #282828;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-header nav ul li {
-  margin: 0 15px;
+/* Logo da loja */
+.logo {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
 }
 
-header nav ul li a {
-  color: #C0C0C0; /* Prata */
-  text-decoration: none;
-  font-size: 1.1rem;
-  transition: color 0.3s;
-}
-header nav ul li a:hover {
-  color: #FF0000; /* Vermelho */
-}
- 
-header img{
-    width: 10%;
-    align-content: flex-start;
-    display: flex;
-    flex-wrap: wrap; 
-    
-}
-.acss{
-align-items: end;
-
+/* Ícone do carrinho */
+.icon {
+  font-size: 30px;
+  color: #fff;
 }
 
-
-body {
-  background-color: #C0C0C0; /* Prata */
-  color: #000000; /* Preto */
-  line-height: 1.6;
-}
-main {
+/* Estilos gerais do container de produtos */
+.container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  gap: 20px;
 }
 
-.card1a {
-  background-color: #FFFFFF; /* Branco para contraste */
-  border: 2px solid #FF0000; /* Vermelho */
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+/* Estilo do card de produto */
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
   text-align: center;
-  padding: 15px;
-  width: 250px;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease-in-out;
 }
 
-.card1a:hover {
-  transform: scale(1.05);
+/* Efeito de hover para o card de produto */
+.product-card:hover {
+  transform: translateY(-10px);
 }
 
-.card1a img {
+/* Imagem do produto */
+.product-img {
   width: 100%;
-  border-bottom: 2px solid #FF0000;
-  margin-bottom: 10px;
+  height: auto;
+  border-bottom: 1px solid #ddd;
 }
 
-.card1a h2 {
-  color: #000000; /* Preto */
-  margin-bottom: 10px;
-  font-size: 1.2rem;
+/* Título do produto */
+.product-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 15px 0;
+  color: #333;
 }
 
-.card1a p {
-  color: #FF0000; /* Vermelho */
-  font-weight: bold;
-  margin-bottom: 15px;
+/* Preço do produto */
+.product-price {
+  font-size: 20px;
+  color: #e74c3c;
+  margin-bottom: 20px;
 }
 
-/* ====== BOTÃO ====== */
-.card1a button {
-  background-color: #000000; /* Preto */
-  color: #FFFFFF; /* Branco */
-  border: 2px solid #FF0000; /* Vermelho */
-  padding: 8px 12px;
-  font-size: 1rem;
+/* Estilo do botão */
+.contact-button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
-.card1a button:hover {
-  background-color: #FF0000; /* Vermelho */
-  color: #000000; /* Preto */
+/* Hover do botão */
+.contact-button:hover {
+  background-color: #27ae60;
 }
 
-footer {
-  background-color: #000000; /* Preto */
-  color: #C0C0C0; /* Prata */
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-  border-top: 3px solid #FF0000; /* Detalhe vermelho */
+/* Link no botão */
+.contact-button a {
+  color: #fff;
+  text-decoration: none;
 }
 
-
-
- 
-
-  
-
-
-  .line{
-        display: flex;
-        flex-wrap: wrap; 
-        align-content: flex-start;
-    
-        height: 100%;
-        padding: 15px;
-        gap: 5px;
-    
-        display: flex;
-          
-        
-        flex-wrap: wrap; 
-    
-        
-        height: 100%;
-        padding: 15px;
-        gap: 5px;
-    
-      }
-
-
-    .line > div{
-        background: #ff0000;
-        border: 3px solid #ff7b00;
-        border-radius: 5px;
-        padding: 8px;
-      }
-
-
-
-
-    
-
-.flex-container > div{
-    background: #999999;
-    border: 3px solid #ff7b00;
-    border-radius: 5px;
-    padding: 8px;
+/* Responsividade */
+@media (max-width: 768px) {
+  .product-card {
+      width: 100%;
+      margin: 10px 0;
   }
-
-.flex-container{
-    display: flex;
-    flex-wrap: wrap; 
-    align-content: flex-start;
-
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
-
-    display: flex;
-      
-    /* flex-flow: wrap; */  
-    flex-wrap: wrap; 
-
-    background-color: #ff7b00;
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
-
-  }
-.center-text{
-
-    display: flex;
-    flex-wrap: wrap; 
-    align-content: flex-start;
-
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
-
 }
-
-
-
-

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="title" href="1 logo loja.png">
+    <link rel="cars" href="carros/">
+    <script src="https://phosphoricons.com"></script>
+</head>
+<header>
+    <div class="center-text">      
+        <img src="1 logo loja.png" alt="Veneza">
+        <i class="ph ph-shopping-cart-simple"></i>
+        </div>
+        
+</header>
+<body>
+    
+<div class="line">
+<div class="card1a">
+        <img src="carros/Jetta Ed.png" alt="Imagem da Carta">
+        <h2>Jetta</h2>
+        <p>Preço: R$72.000,00</p>
+        <button><a href="https://wa.me/554299814212">Entre em contato</a></button>
+</div>
+
+</div>
+
+                  
+</body>
+</html>
