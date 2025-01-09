@@ -77,12 +77,23 @@ body {
   color: #333;
 }
 
+.Ano {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 15px 0;
+  color: #333;
+}
+
+
+}
 /* Preço do produto */
 .product-price {
   font-size: 20px;
   color: #e74c3c;
   margin-bottom: 20px;
 }
+
+
 
 /* Estilo do botão */
 .contact-button {
