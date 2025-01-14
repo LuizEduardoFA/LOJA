@@ -56,20 +56,19 @@ main {
 
 .image-container {
     display: flex;
-    flex-direction: row; /* Imagens (principal e miniaturas) na horizontal */
-    gap: 2rem;
-    align-items: flex-start; /* Garante que as imagens não sobreponham */
-    justify-content: center;
-    width: 100%;
+    flex-direction: row; /* Miniaturas ao lado da imagem principal */
+    gap: 2rem; /* Espaçamento entre as miniaturas e a imagem principal */
+    align-items: flex-start; /* Alinha no topo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    width: 100%; /* Garante que o container ocupe a largura total */
+    margin: 0 auto; /* Centraliza o container */
 }
 
 .thumbnail-bar {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-    justify-content: center;
-    align-items: flex-start
+    flex-direction: column; /* Miniaturas organizadas em uma coluna */
+    gap: 1rem; /* Espaçamento entre as miniaturas */
+    justify-content: flex-start; /* Alinha as miniaturas ao topo */
 }
 
 .thumbnail-bar img {
@@ -84,8 +83,8 @@ main {
     transform: scale(1.1); /* Efeito de zoom suave ao passar o mouse */
 }
 .main-image {
-    width: 70%;
-    max-width: 600px; /* Limite de largura para a imagem principal */
+    flex: 1; /* Garante que a imagem principal ocupe o espaço restante */
+    max-width: 600px; /* Limita a largura máxima */
 }
 
 .main-image img {
