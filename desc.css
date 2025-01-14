@@ -1,3 +1,4 @@
+/* Estilo geral */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -49,7 +50,7 @@ main {
     display: flex;
     gap: 2rem;
     justify-content: center;
-    flex-direction: column; /* Mudei a direção para coluna */
+    flex-direction: column; /* Organiza tudo na coluna */
     align-items: center;
 }
 
@@ -57,7 +58,7 @@ main {
     display: flex;
     gap: 2rem;
     width: 100%;
-    flex-direction: column; /* Coloca as imagens na coluna */
+    flex-direction: column;
     align-items: center;
 }
 
@@ -66,7 +67,7 @@ main {
     flex-direction: row;
     gap: 1rem;
     width: 100%;
-    justify-content: center; /* Centraliza as miniaturas */
+    justify-content: center;
 }
 
 .thumbnail-bar img {
@@ -94,7 +95,7 @@ main {
 /* Títulos e texto */
 .car-details h2 {
     font-size: 2rem;
-    color: #666; /* Cinza escuro */
+    color: #666;
     margin-top: 1rem;
 }
 
@@ -105,21 +106,24 @@ main {
     text-align: center; /* Centraliza a descrição */
 }
 
-.car-details ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    max-width: 600px;
-    text-align: left;
+.car-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Cria 2 colunas */
+    gap: 1rem;
+    margin-top: 1rem;
+    max-width: 600px; /* Limita a largura */
+    text-align: center; /* Centraliza as informações */
 }
 
-.car-details ul li {
-    font-size: 1.1rem;
-    background-color: #f9f9f9; /* Cinza muito claro */
-    margin-bottom: 0.5rem;
-    padding: 0.8rem 1rem;
+.info-item {
+    background-color: #f9f9f9;
+    padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 4px;
+}
+
+.info-item strong {
+    font-weight: bold;
 }
 .contact-button {
     background-color: #2ecc71;
@@ -145,8 +149,8 @@ main {
 
 /* Rodapé */
 footer {
-    background-color: #999; /* Prata médio */
-    color: #fff; /* Texto branco */
+    background-color: #999;
+    color: #fff;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
@@ -157,13 +161,13 @@ footer {
 
 /* Links gerais */
 a {
-    color: #b3b3b3; /* Cinza prateado */
+    color: #b3b3b3;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #b30000; /* Vermelho suave */
+    color: #b30000;
     text-decoration: underline;
 }
 
@@ -190,5 +194,10 @@ a:hover {
 
     .main-image img {
         width: 100%;
+    }
+
+    .car-info {
+        grid-template-columns: 1fr; /* Coloca tudo em uma coluna para telas menores */
+        gap: 0.5rem;
     }
 }
