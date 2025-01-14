@@ -38,7 +38,7 @@ header a:hover {
     display: flex; /* Flexbox para alinhar o ícone e o texto */
     align-items: center; /* Centraliza verticalmente */
     text-decoration: none; /* Remove o sublinhado */
-    color: #333; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
     font-size: 16px; /* Tamanho da fonte */
     font-weight: bold; /* Negrito para destaque */
     margin: 10px 0; /* Espaço ao redor */
