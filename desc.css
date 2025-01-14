@@ -84,9 +84,9 @@ main {
 }
 .image-zoom-container {
     position: relative;
-    width: 600px; /* Tamanho do container */
+    width: 600px; /* Ajuste conforme necessário */
     height: auto;
-    overflow: hidden; /* Oculta o conteúdo fora dos limites */
+    overflow: hidden;
 }
 .main-image {
     width: 100%; /* Ocupa todo o container */
@@ -97,11 +97,20 @@ main {
     position: absolute;
     width: 100px; /* Tamanho da lente */
     height: 100px;
-    border: 2px solid rgba(255, 0, 0, 0.5); /* Borda da lente (ajuste a cor se necessário) */
-    background: rgba(255, 255, 255, 0.3); /* Efeito visual para a lente */
+    background: rgba(255, 255, 255, 0.3); /* Lente translúcida */
+    border: 2px solid rgba(255, 0, 0, 0.5); /* Ajuste a cor da borda se necessário */
     border-radius: 50%; /* Forma circular */
     pointer-events: none; /* Evita interferir no clique */
-    display: none; /* Oculta por padrão */
+}
+.zoom-result {
+    position: absolute;
+    top: 0;
+    left: calc(100% + 10px); /* Exibe a área ampliada à direita da imagem */
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-size: 200%; /* Ampliar a imagem */
 }
 
 .main-image img {

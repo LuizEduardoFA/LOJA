@@ -1,27 +1,32 @@
 const imageContainer = document.querySelector('.image-zoom-container');
 const mainImage = document.querySelector('.main-image');
 const zoomLens = document.querySelector('.zoom-lens');
+const zoomResult = document.querySelector('.zoom-result');
 
-// Mostra a lente ao passar o mouse na imagem
-imageContainer.addEventListener('mouseenter', () => {
-    zoomLens.style.display = 'block';
-});
+// Configura a imagem de fundo para o zoom resultante
+zoomResult.style.backgroundImage = `url(${mainImage.src})`;
 
-// Esconde a lente ao sair da imagem
-imageContainer.addEventListener('mouseleave', () => {
-    zoomLens.style.display = 'none';
-});
-
-// Atualiza a posição da lente conforme o mouse se move
 imageContainer.addEventListener('mousemove', (e) => {
     const rect = imageContainer.getBoundingClientRect();
+    const lensWidth = zoomLens.offsetWidth / 2;
+    const lensHeight = zoomLens.offsetHeight / 2;
 
-    // Calcula a posição do mouse relativa ao container
-    let x = e.clientX - rect.left;
-    let y = e.clientY - rect.top;
+    // Calcula a posição da lente
+    let x = e.clientX - rect.left - lensWidth;
+    let y = e.clientY - rect.top - lensHeight;
 
-    // Centraliza a lente no ponto do mouse
-    const lensSize = zoomLens.offsetWidth / 2;
-    zoomLens.style.left = `${x - lensSize}px`;
-    zoomLens.style.top = `${y - lensSize}px`;
+    // Restringe a lente dentro dos limites da imagem
+    x = Math.max(0, Math.min(x, mainImage.width - zoomLens.offsetWidth));
+    y = Math.max(0, Math.min(y, mainImage.height - zoomLens.offsetHeight));
+
+    // Move a lente
+    zoomLens.style.left = `${x}px`;
+    zoomLens.style.top = `${y}px`;
+
+    // Calcula a posição do zoom
+    const bgX = (x / mainImage.width) * 100;
+    const bgY = (y / mainImage.height) * 100;
+
+    // Atualiza a posição do background da área ampliada
+    zoomResult.style.backgroundPosition = `${bgX}% ${bgY}%`;
 });
