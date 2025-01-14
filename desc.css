@@ -1,78 +1,118 @@
-* {
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
+    background-color: #f9f9f9; /* Cinza claro para o fundo */
+    color: #333; /* Cinza escuro para o texto */
+}
 
+/* Cabeçalho */
+header {
+    background-color: #e60000; /* Vermelho vivo */
+    color: #fff; /* Branco para o texto */
+    padding: 1em 2em;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-  body {
-    background-color: #C0C0C0; /* Prata */
-    color: #000000; /* Preto */
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header a {
+    color: #fff; /* Link branco */
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Área principal */
+main {
+    padding: 2em;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Detalhes do carro */
+.car-details {
+    text-align: center;
+}
+
+.car-details h2 {
+    font-size: 2em;
+    color: #e60000; /* Vermelho para o título */
+    margin-bottom: 1em;
+}
+
+.car-details img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5em;
+}
+
+.car-details p {
+    font-size: 1.1em;
     line-height: 1.6;
-  }
-  
-.product-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    margin-bottom: 1.5em;
 }
-.product-image {
-    max-width: 100%;
-    height: auto;
-}
-.product-tit body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+
+/* Especificações do carro */
+#car-specs {
+    list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.product-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+
+#car-specs li {
+    font-size: 1.1em;
+    background-color: #f0f0f0; /* Cinza claro para os itens */
+    padding: 0.8em 1.2em;
+    border-radius: 6px;
+    margin: 0.5em;
+    flex: 1 1 calc(45% - 1em); /* Ajusta para duas colunas */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-.product-image {
-    max-width: 100%;
-    height: auto;
+
+#car-specs li span {
+    font-weight: bold;
+    color: #333;
 }
-.product-title {
-    font-size: 24px;
-    margin-top: 10px;
-}
-.product-description {
-    margin-top: 20px;
-}
-.product-buttons {
-    margin-top: 20px;
-}
-.buy-button, .favorite-button {
-    background-color: #007bff;
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #e60000;
     color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
+    margin-top: 2em;
+    font-size: 0.9em;
 }
-.favorite-button {
-    background-color: #f00;
-}le {
-    font-size: 24px;
-    margin-top: 10px;
-}
-.product-description {
-    margin-top: 20px;
-}
-.product-buttons {
-    margin-top: 20px;
-}
-.buy-button, .favorite-button {
-    background-color: #007bff;
+
+/* Botões */
+a.button {
+    display: inline-block;
+    background-color: #e60000;
     color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.favorite-button {
-    background-color: #f00;
+
+a.button:hover {
+    background-color: #cc0000;
 }
