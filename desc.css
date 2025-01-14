@@ -96,30 +96,7 @@ main {
     display: block;
 }
 
-/* Lente de zoom */
-.zoom-lens {
-    position: absolute;
-    width: 100px; /* Tamanho da lente */
-    height: 100px;
-    background: rgba(255, 255, 255, 0.3); /* Lente translúcida */
-    border: 2px solid rgba(255, 0, 0, 0.5); /* Ajuste a cor da borda se necessário */
-    border-radius: 50%; /* Forma circular */
-    pointer-events: none; /* Evita interferir no clique */
-    display: none; /* Oculta por padrão */
-}
 
-/* Área ampliada */
-.zoom-result {
-    position: absolute;
-    top: 0;
-    left: calc(100% + 10px); /* Exibe a área ampliada à direita da imagem */
-    width: 300px;
-    height: 300px;
-    border: 1px solid #ccc;
-    background-repeat: no-repeat;
-    background-size: 200%; /* Ampliar a imagem */
-    display: none; /* Oculta por padrão */
-}
 .main-image img {
     max-width: 100%;
     height: auto;
@@ -174,7 +151,10 @@ main {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
+  a {
+    text-decoration: none; /* Remove a linha de sublinhado dos links */
+    color: inherit; /* Mantém a cor do texto padrão */
+  }
   /* Hover do botão */
   .contact-button:hover {
     background-color: #27ae60;
