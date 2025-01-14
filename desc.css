@@ -89,6 +89,27 @@ main {
     font-weight: bold;
     color: #333;
 }
+.contact-button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover do botão */
+  .contact-button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Link no botão */
+  .contact-button a {
+    color: #fff;
+    text-decoration: none;
+  }
 
 /* Rodapé */
 footer {
