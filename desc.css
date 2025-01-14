@@ -151,10 +151,7 @@ main {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  a {
-    text-decoration: none; /* Remove a linha de sublinhado dos links */
-    color: inherit; /* Mantém a cor do texto padrão */
-  }
+  
   /* Hover do botão */
   .contact-button:hover {
     background-color: #27ae60;
@@ -162,8 +159,10 @@ main {
   
   /* Link no botão */
   .contact-button a {
-    color: #fff;
-    text-decoration: none;
+    
+        text-decoration: none; /* Remove a linha de sublinhado dos links */
+        color: inherit; /* Mantém a cor do texto padrão */
+    
   }
 
 /* Rodapé */
