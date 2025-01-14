@@ -6,6 +6,16 @@ const zoomResult = document.querySelector('.zoom-result');
 // Configura a imagem de fundo para o zoom resultante
 zoomResult.style.backgroundImage = `url(${mainImage.src})`;
 
+imageContainer.addEventListener('mouseenter', () => {
+    zoomLens.style.display = 'block';
+    zoomResult.style.display = 'block';
+});
+
+imageContainer.addEventListener('mouseleave', () => {
+    zoomLens.style.display = 'none';
+    zoomResult.style.display = 'none';
+});
+
 imageContainer.addEventListener('mousemove', (e) => {
     const rect = imageContainer.getBoundingClientRect();
     const lensWidth = zoomLens.offsetWidth / 2;

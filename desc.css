@@ -88,11 +88,15 @@ main {
     height: auto;
     overflow: hidden;
 }
+
+/* Estilo da imagem principal */
 .main-image {
     width: 100%; /* Ocupa todo o container */
     height: auto;
     display: block;
 }
+
+/* Lente de zoom */
 .zoom-lens {
     position: absolute;
     width: 100px; /* Tamanho da lente */
@@ -101,7 +105,10 @@ main {
     border: 2px solid rgba(255, 0, 0, 0.5); /* Ajuste a cor da borda se necessário */
     border-radius: 50%; /* Forma circular */
     pointer-events: none; /* Evita interferir no clique */
+    display: none; /* Oculta por padrão */
 }
+
+/* Área ampliada */
 .zoom-result {
     position: absolute;
     top: 0;
@@ -111,8 +118,8 @@ main {
     border: 1px solid #ccc;
     background-repeat: no-repeat;
     background-size: 200%; /* Ampliar a imagem */
+    display: none; /* Oculta por padrão */
 }
-
 .main-image img {
     max-width: 100%;
     height: auto;
