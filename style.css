@@ -44,6 +44,10 @@ body {
   flex-wrap: wrap; 
     align-content: flex-start;
 }
+.a {
+  text-decoration: none; /* Remove a linha de sublinhado dos links */
+  color: inherit; /* Mantém a cor do texto padrão */
+}
 
 /* Estilo do card de produto */
 .product-card {
