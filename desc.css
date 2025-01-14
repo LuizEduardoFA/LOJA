@@ -91,6 +91,11 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    transition: transform 0.3s ease; /* Suaviza o efeito de zoom */
+}
+.main-image img:hover {
+    transform: scale(1.05); /* Aplica um leve zoom ao passar o mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona um destaque com sombra opcional */
 }
 
 /* Títulos e texto */
