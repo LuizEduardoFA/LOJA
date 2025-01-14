@@ -56,10 +56,11 @@ main {
 
 .image-container {
     display: flex;
+    flex-direction: row; /* Imagens (principal e miniaturas) na horizontal */
     gap: 2rem;
+    align-items: flex-start; /* Garante que as imagens não sobreponham */
+    justify-content: center;
     width: 100%;
-    flex-direction: row;
-    align-items: center;
 }
 
 .thumbnail-bar {
