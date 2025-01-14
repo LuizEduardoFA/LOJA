@@ -1,93 +1,90 @@
-/* Geral */
+/* Estilo geral */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Cinza claro para o fundo */
+    background-color: #f4f4f4; /* Cinza claro para o fundo */
     color: #333; /* Cinza escuro para o texto */
 }
 
 /* Cabeçalho */
 header {
-    background-color: #e60000; /* Vermelho vivo */
-    color: #fff; /* Branco para o texto */
-    padding: 1em 2em;
+    background-color: #333; /* Cinza escuro */
+    color: #fff; /* Texto branco */
+    padding: 1rem 2rem;
     text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
     margin: 0;
-    font-size: 1.8em;
+    font-size: 2rem;
 }
 
 header a {
-    color: #fff; /* Link branco */
+    color: #fff;
     text-decoration: none;
-    font-size: 1em;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    display: inline-block;
 }
 
 header a:hover {
     text-decoration: underline;
 }
 
-/* Área principal */
+/* Conteúdo principal */
 main {
-    padding: 2em;
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
     background-color: #fff; /* Fundo branco */
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Detalhes do carro */
+/* Seção de detalhes do carro */
 .car-details {
     text-align: center;
 }
 
 .car-details h2 {
-    font-size: 2em;
-    color: #e60000; /* Vermelho para o título */
-    margin-bottom: 1em;
+    font-size: 2rem;
+    color: #666; /* Cinza escuro */
+    margin-bottom: 1rem;
 }
 
 .car-details img {
     max-width: 100%;
+    height: auto;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5rem;
 }
 
 .car-details p {
-    font-size: 1.1em;
+    font-size: 1.2rem;
     line-height: 1.6;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5rem;
 }
 
-/* Especificações do carro */
-#car-specs {
-    list-style-type: none;
+/* Lista de especificações */
+.car-details ul {
+    list-style: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
 }
 
-#car-specs li {
-    font-size: 1.1em;
-    background-color: #f0f0f0; /* Cinza claro para os itens */
-    padding: 0.8em 1.2em;
-    border-radius: 6px;
-    margin: 0.5em;
-    flex: 1 1 calc(45% - 1em); /* Ajusta para duas colunas */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#car-specs li span {
-    font-weight: bold;
-    color: #333;
+.car-details ul li {
+    font-size: 1.1rem;
+    background-color: #f9f9f9; /* Cinza muito claro */
+    margin-bottom: 0.5rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 .contact-button {
     background-color: #2ecc71;
@@ -113,27 +110,44 @@ main {
 
 /* Rodapé */
 footer {
+    background-color: #666; /* Cinza médio */
+    color: #fff; /* Texto branco */
     text-align: center;
-    padding: 1em 0;
-    background-color: #e60000;
-    color: #fff;
-    margin-top: 2em;
-    font-size: 0.9em;
+    padding: 1rem;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-/* Botões */
-a.button {
-    display: inline-block;
-    background-color: #e60000;
-    color: #fff;
-    padding: 0.8em 1.5em;
+/* Links gerais */
+a {
+    color: #b3b3b3; /* Cinza prateado */
     text-decoration: none;
-    font-size: 1em;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
 }
 
-a.button:hover {
-    background-color: #cc0000;
+a:hover {
+    color: #b30000; /* Vermelho suave */
+    text-decoration: underline;
+}
+
+/* Estilo de bordas prateadas */
+.car-details ul li {
+    border: 1px solid #ccc; /* Bordas prateadas suaves */
+}
+
+footer {
+    background-color: #999; /* Prata médio */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    .car-details ul {
+        padding: 0 1rem;
+    }
 }
