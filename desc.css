@@ -34,6 +34,22 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
+.back-link {
+    display: flex; /* Flexbox para alinhar o ícone e o texto */
+    align-items: center; /* Centraliza verticalmente */
+    text-decoration: none; /* Remove o sublinhado */
+    color: #333; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito para destaque */
+    margin: 10px 0; /* Espaço ao redor */
+    padding-left: 10px; /* Espaçamento da borda esquerda */
+}
+
+/* Ícone de flecha */
+.back-icon {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    font-size: 18px; /* Tamanho ligeiramente maior para o ícone */
+}
 
 /* Conteúdo principal */
 main {
