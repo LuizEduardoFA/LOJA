@@ -1,0 +1,237 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cinza claro para o fundo */
+    color: #333; /* Cinza escuro para o texto */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333; /* Cinza escuro */
+    color: #fff; /* Texto branco */
+    padding: 1rem 2rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+.back-link {
+    display: flex; /* Flexbox para alinhar o ícone e o texto */
+    align-items: center; /* Centraliza verticalmente */
+    text-decoration: none; /* Remove o sublinhado */
+    color: #ffffff; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito para destaque */
+    margin: 10px 0; /* Espaço ao redor */
+    padding-left: 10px; /* Espaçamento da borda esquerda */
+}
+
+/* Ícone de flecha */
+.back-icon {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    font-size: 18px; /* Tamanho ligeiramente maior para o ícone */
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção de detalhes do carro */
+.car-details {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-direction: column; /* Deixe a coluna como estava */
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row; /* Miniaturas ao lado da imagem principal */
+    gap: 2rem; /* Espaçamento entre as miniaturas e a imagem principal */
+    align-items: flex-start; /* Alinha no topo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    width: 100%; /* Garante que o container ocupe a largura total */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+.thumbnail-bar {
+    display: flex;
+    flex-direction: column; /* Miniaturas organizadas em uma coluna */
+    gap: 1rem; /* Espaçamento entre as miniaturas */
+    justify-content: flex-start; /* Alinha as miniaturas ao topo */
+}
+
+.thumbnail-bar img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail-bar img:hover {
+    transform: scale(1.1); /* Efeito de zoom suave ao passar o mouse */
+}
+.image-zoom-container {
+    position: relative;
+    width: 600px; /* Ajuste conforme necessário */
+    height: auto;
+    overflow: hidden;
+}
+
+/* Estilo da imagem principal */
+.main-image {
+    width: 100%; /* Ocupa todo o container */
+    height: auto;
+    display: block;
+}
+
+
+.main-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Suaviza o efeito de zoom */
+}
+.main-image img:hover {
+    transform: scale(1.05); /* Aplica um leve zoom ao passar o mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona um destaque com sombra opcional */
+}
+
+/* Títulos e texto */
+.car-details h2 {
+    font-size: 2rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+.car-details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: center; /* Centraliza a descrição */
+}
+
+.car-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Cria 2 colunas */
+    gap: 1rem;
+    margin-top: 1rem;
+    max-width: 600px; /* Limita a largura */
+    text-align: center; /* Centraliza as informações */
+}
+
+.info-item {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.info-item strong {
+    font-weight: bold;
+}
+.contact-button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover do botão */
+  .contact-button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Link no botão */
+  .contact-button a {
+    
+        text-decoration: none; /* Remove a linha de sublinhado dos links */
+        color: inherit; /* Mantém a cor do texto padrão */
+    
+  }
+
+/* Rodapé */
+footer {
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links gerais */
+a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #b30000;
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    .image-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .thumbnail-bar {
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+    }
+
+    .thumbnail-bar img {
+        width: 60px;
+    }
+
+    .main-image img {
+        width: 100%;
+    }
+
+    .car-info {
+        grid-template-columns: 1fr; /* Coloca tudo em uma coluna para telas menores */
+        gap: 0.5rem;
+    }
+}
