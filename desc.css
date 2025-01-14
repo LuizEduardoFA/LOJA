@@ -50,7 +50,7 @@ main {
     display: flex;
     gap: 2rem;
     justify-content: center;
-    flex-direction: column; /* Organiza tudo na coluna */
+    flex-direction: column; /* Deixe a coluna como estava */
     align-items: center;
 }
 
@@ -83,7 +83,6 @@ main {
 .thumbnail-bar img:hover {
     transform: scale(1.1); /* Efeito de zoom suave ao passar o mouse */
 }
-
 .main-image {
     width: 70%;
     max-width: 600px; /* Limite de largura para a imagem principal */
