@@ -13,7 +13,23 @@
     </header>
     <main>
         <section class="car-details">
-            <img id="car-image" src="carros/Jeep renegade Ed.png" alt="Imagem do Carro">
+
+            <div class="image-container">
+                <!-- Barra de imagens à esquerda -->
+                <div class="thumbnail-bar">
+                    <img src="carros/Amarok Cinza Ed.png" alt="Imagem 1" class="thumbnail" onclick="changeImage('images/ford-mustang-1.jpg')">
+                    <img src="carros/Argo Ed.png" alt="Imagem 2" class="thumbnail" onclick="changeImage('images/ford-mustang-2.jpg')">
+                    <img src="carros/Gol Branco Ed.png" alt="Imagem 3" class="thumbnail" onclick="changeImage('images/ford-mustang-3.jpg')">
+                    <!-- Adicione mais miniaturas conforme necessário -->
+                </div>
+                
+                <!-- Imagem principal do carro -->
+                <div class="main-image">
+                    <img id="main-img" src="carros/Jeep renegade Ed.png" alt="Ford Mustang">
+                </div>
+            </div>
+
+
             <p id="car-description">Jeep renegade Sinistrado, em bom estado e num sei o que lá.</p>
             <ul id="car-specs">
                 <li>Marca: <span id="car-brand">Jeep</span></li>
@@ -27,5 +43,11 @@
     <footer>
         <p>&copy; 2025 - Veneza Multimarcas</p>
     </footer>
+    <script>
+        // Função para mudar a imagem principal ao clicar nas miniaturas
+        function changeImage(src) {
+            document.getElementById('main-img').src = src;
+        }
+    </script>
 </body>
 </html>

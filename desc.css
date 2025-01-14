@@ -47,20 +47,51 @@ main {
 
 /* Seção de detalhes do carro */
 .car-details {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.car-details h2 {
-    font-size: 2rem;
-    color: #666; /* Cinza escuro */
-    margin-bottom: 1rem;
+.image-container {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
 }
 
-.car-details img {
+.thumbnail-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100px;
+}
+
+.thumbnail-bar img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail-bar img:hover {
+    transform: scale(1.1); /* Efeito de zoom suave ao passar o mouse */
+}
+
+.main-image {
+    width: 70%;
+}
+
+.main-image img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 1.5rem;
+}
+
+/* Títulos e texto */
+.car-details h2 {
+    font-size: 2rem;
+    color: #666; /* Cinza escuro */
+    margin-top: 1rem;
 }
 
 .car-details p {
@@ -69,7 +100,6 @@ main {
     margin-bottom: 1.5rem;
 }
 
-/* Lista de especificações */
 .car-details ul {
     list-style: none;
     padding: 0;
@@ -110,7 +140,7 @@ main {
 
 /* Rodapé */
 footer {
-    background-color: #666; /* Cinza médio */
+    background-color: #999; /* Prata médio */
     color: #fff; /* Texto branco */
     text-align: center;
     padding: 1rem;
@@ -132,22 +162,28 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Estilo de bordas prateadas */
-.car-details ul li {
-    border: 1px solid #ccc; /* Bordas prateadas suaves */
-}
-
-footer {
-    background-color: #999; /* Prata médio */
-}
-
 /* Responsividade */
 @media (max-width: 768px) {
     main {
         padding: 1rem;
     }
 
-    .car-details ul {
-        padding: 0 1rem;
+    .image-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .thumbnail-bar {
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+    }
+
+    .thumbnail-bar img {
+        width: 60px;
+    }
+
+    .main-image img {
+        width: 100%;
     }
 }
