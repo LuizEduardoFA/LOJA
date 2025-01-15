@@ -193,6 +193,17 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Hover do botão */
+.contact-button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Link no botão */
+  .contact-button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
 
 /* Links gerais */
 a {
@@ -202,8 +213,8 @@ a {
 }
 
 a:hover {
-    color: #b30000;
-    text-decoration: underline;
+    color: #27ae60;
+    text-decoration: none;
 }
 
 /* Responsividade */
