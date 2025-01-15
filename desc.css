@@ -32,7 +32,7 @@ header a {
 }
 
 header a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 .back-link {
     display: flex; /* Flexbox para alinhar o ícone e o texto */
