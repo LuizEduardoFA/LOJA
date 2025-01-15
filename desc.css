@@ -47,7 +47,7 @@ header a:hover {
     cursor: pointer;
     transition: background-color 0.3s ease;
     position: absolute; /* Posicionamento absoluto */
-    top: 17px; /* Distância do topo da página ou container */
+    top: 10px; /* Distância do topo da página ou container */
     left: 20px; /* Distância da lateral esquerda */
 }
 
