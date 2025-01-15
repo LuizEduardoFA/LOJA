@@ -54,6 +54,9 @@ header a:hover {
     font-size: 18px; /* Tamanho ligeiramente maior para o ícone */
 
 }
+.back-link:hover {
+    background-color: #218838; /* Cor mais escura ao passar o mouse */
+}
 
 /* Conteúdo principal */
 main {
