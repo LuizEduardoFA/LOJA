@@ -47,7 +47,7 @@ header a:hover {
     cursor: pointer;
     transition: background-color 0.3s ease;
     position: absolute; /* Posicionamento absoluto */
-    top: 20px; /* Distância do topo da página ou container */
+    top: 17px; /* Distância do topo da página ou container */
     left: 20px; /* Distância da lateral esquerda */
 }
 
@@ -58,7 +58,8 @@ header a:hover {
 
 }
 .back-link:hover {
-    background-color: #218838; /* Cor mais escura ao passar o mouse */
+    background-color: #27ae60; /* Cor mais escura ao passar o mouse */
+    color: #fff;
 }
 
 /* Conteúdo principal */
