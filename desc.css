@@ -44,12 +44,14 @@ header a:hover {
     font-weight: bold; /* Negrito para destaque */
     margin: 10px 0; /* Espaço ao redor */
     padding-left: 10px; /* Espaçamento da borda esquerda */
+    background-color: #27ae60;
 }
 
 /* Ícone de flecha */
 .back-icon {
     margin-right: 8px; /* Espaço entre o ícone e o texto */
     font-size: 18px; /* Tamanho ligeiramente maior para o ícone */
+
 }
 
 /* Conteúdo principal */
@@ -199,7 +201,7 @@ footer {
   }
   
   /* Link no botão */
-  .contact-button a {
+  .contact-button a:hover {
     color: #fff;
     text-decoration: none;
   }
