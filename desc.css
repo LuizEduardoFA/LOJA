@@ -36,7 +36,7 @@ header a:hover {
     
 }
 .back-link {
-    display: flex; /* Flexbox para alinhar o ícone e o texto */
+    display: inline-flex; /* Flexbox para alinhar o ícone e o texto */
     text-decoration: none; /* Remove o sublinhado */
     background-color: #2ecc71;
     color: #fff;
