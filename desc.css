@@ -33,6 +33,7 @@ header a {
 
 header a:hover {
     text-decoration: none;
+    
 }
 .back-link {
     display: flex; /* Flexbox para alinhar o ícone e o texto */
@@ -171,14 +172,14 @@ main {
   /* Hover do botão */
   .contact-button:hover {
     background-color: #27ae60;
+    text-decoration: none;
   }
   
   /* Link no botão */
   .contact-button a {
-    
-        text-decoration: none; /* Remove a linha de sublinhado dos links */
-        color: inherit; /* Mantém a cor do texto padrão */
-    
+    text-decoration: none;
+    color: #ffffff;
+        
   }
 
 /* Rodapé */
