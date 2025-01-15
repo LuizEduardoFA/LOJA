@@ -40,11 +40,16 @@ header a:hover {
     align-items: center; /* Centraliza verticalmente */
     text-decoration: none; /* Remove o sublinhado */
     color: #ffffff; /* Cor do texto */
-    font-size: 16px; /* Tamanho da fonte */
     font-weight: bold; /* Negrito para destaque */
     margin: 10px 0; /* Espaço ao redor */
     padding-left: 10px; /* Espaçamento da borda esquerda */
     background-color: #27ae60;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 /* Ícone de flecha */
