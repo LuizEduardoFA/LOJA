@@ -197,9 +197,9 @@ footer {
     background-color: #f8f9fa; /* Cor de fundo do rodapé */
     color: #333; /* Cor do texto */
     text-align: center; /* Centraliza o conteúdo */
-    font-size: 14px; /* Tamanho da fonte do texto */
-    padding: 10px 20px; /* Espaçamento interno reduzido */
-    margin-top: 20px; /* Espaçamento acima do rodapé */
+    font-size: 12px; /* Tamanho menor para o texto */
+    padding: 5px 10px; /* Reduzido para um rodapé mais fino */
+    margin-top: 10px; /* Menor espaço entre o rodapé e o conteúdo acima */
     border-top: 1px solid #ddd; /* Linha sutil no topo */
 }
 
