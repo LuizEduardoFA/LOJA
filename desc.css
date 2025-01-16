@@ -194,14 +194,14 @@ main {
 
 /* Rodapé */
 footer {
-    background-color: #999;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 1rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    background-color: #f8f9fa; /* Cor de fundo do rodapé */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o conteúdo */
+    font-size: 14px; /* Tamanho da fonte do texto */
+    padding: 10px 20px; /* Espaçamento interno reduzido */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+    border-top: 1px solid #ddd; /* Linha sutil no topo */
+}
 }
 /* Hover do botão */
 .contact-button:hover {
