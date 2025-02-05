@@ -97,7 +97,16 @@ a {
   margin-bottom: 20px;
 }
 
-
+.vendido product-card {
+  background-color: #989898;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
 
 /* Estilo do botão */
 .contact-button {
