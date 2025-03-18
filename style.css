@@ -13,9 +13,21 @@
 
 #accessibility-buttons button {
   font-size: 16px;
-  padding: 5px 10px;
+  padding: 10px 15px;
   margin-left: 5px;
-} 
+  border: none; /* Remove a borda padrão */
+  border-radius: 10px; /* Deixa as bordas arredondadas */
+  background-color: #007BFF; /* Um tom de azul */
+  color: white; /* Cor do texto */
+  cursor: pointer; /* Mostra o cursor de link ao passar o mouse */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+  transition: all 0.3s ease; /* Animações suaves para hover */
+}
+
+#accessibility-buttons button:hover {
+  background-color: #0056b3; /* Azul mais escuro no hover */
+  transform: scale(1.1); /* Aumenta levemente ao passar o mouse */
+}
 
 /* Estilo para o corpo da página */
 body {
