@@ -1,7 +1,9 @@
 const increaseFontButton = document.getElementById('increase-font');
 const decreaseFontButton = document.getElementById('decrease-font');
-const paragraphs = document.querySelectorAll('h2');
+
 const paragraphs = document.querySelectorAll('p');
+
+const paragraphs = document.querySelectorAll('h2');
 
 let currentFontSize = 16; // Tamanho de fonte inicial
 
