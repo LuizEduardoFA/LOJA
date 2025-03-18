@@ -7,8 +7,9 @@
 
 #accessibility-buttons {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 50%; /* Alinha ao meio verticalmente */
+  right: 0; /* Colado à lateral direita */
+  transform: translateY(-50%); /* Centraliza perfeitamente */
 }
 
 #accessibility-buttons button {
