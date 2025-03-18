@@ -5,6 +5,18 @@
   box-sizing: border-box;
 }
 
+#accessibility-buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#accessibility-buttons button {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-left: 5px;
+} 
+
 /* Estilo para o corpo da página */
 body {
   font-family: 'Arial', sans-serif;
