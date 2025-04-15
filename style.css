@@ -37,7 +37,7 @@
 }
 
 .rotacao-botao.rotacao-botao { /* Quando a classe 'rotacao-botao' é adicionada pelo JS */
-  transform: rotate(180deg); /* Rotaciona 180 graus */
+  transform: rotate(360deg); /* Rotaciona 180 graus */
 }
 
 /* Estilo para as opções de acessibilidade (inicialmente escondidas) */
