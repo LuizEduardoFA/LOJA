@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
 /* Resetando margens e padding */
 * {
   margin: 0;
@@ -37,7 +38,7 @@
 }
 
 .rotacao-botao.rotacao-botao { /* Quando a classe 'rotacao-botao' é adicionada pelo JS */
-  transform: rotate(360deg); /* Rotaciona 180 graus */
+  transform: rotate(360deg); /* Rotaciona 360 graus */
 }
 
 /* Estilo para as opções de acessibilidade (inicialmente escondidas) */
@@ -111,6 +112,7 @@ body {
   background-color: #f7f7f7;
   color: #333;
   padding-top: 50px;
+  font-size: 1rem; /* Adicionado para ser a base do tamanho da fonte */
 }
 
 /* Estilo do header */
@@ -141,7 +143,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
     align-content: flex-start;
 }
 a {
@@ -175,24 +177,22 @@ a {
 
 /* Título do produto */
 .product-title {
-  font-size: 24px;
+  font-size: 1.5rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
   font-weight: 600;
   margin: 15px 0;
   color: #333;
 }
 
 .Ano {
-  font-size: 24px;
+  font-size: 1.5rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
   font-weight: 600;
   margin: 15px 0;
   color: #333;
 }
 
-
-
 /* Preço do produto */
 .product-price {
-  font-size: 20px;
+  font-size: 1.25rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
   color: #e74c3c;
   margin-bottom: 20px;
 }
@@ -215,7 +215,7 @@ a {
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -223,7 +223,7 @@ footer {
   background-color: #f8f9fa; /* Cor de fundo do rodapé */
     color: #333; /* Cor do texto */
     text-align: center; /* Centraliza o conteúdo */
-    font-size: 12px; /* Tamanho menor para o texto */
+    font-size: 0.75rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
     padding: 5px 10px; /* Reduzido para um rodapé mais fino */
     margin-top: 10px; /* Menor espaço entre o rodapé e o conteúdo acima */
     border-top: 1px solid #ddd; /* Linha sutil no topo */
@@ -245,5 +245,4 @@ footer {
       width: 100%;
       margin: 10px 0;
   }
-  
 }
