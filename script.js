@@ -1,25 +1,43 @@
-const increaseFontButton = document.getElementById('increase-font');
-const decreaseFontButton = document.getElementById('decrease-font');
+document.addEventListener('DOMContentLoaded', function(){
+  const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
+  const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
 
-const paragraphs = document.querySelectorAll('p');
-const headings = document.querySelectorAll('h2'); // Selecionando os elementos h2
-let currentFontSize = 16; // Tamanho de fonte inicial
+  botaoDeAcessibilidade.addEventListener('click', function (){
+   botaoDeAcessibilidade.classList.toggle('rotacao-botao');
+   opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
 
-increaseFontButton.addEventListener('click', () => {
-  currentFontSize += 2;
-  updateFontSize();
-});
+   const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'true';
+   botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado)
+ 
+  })
 
-decreaseFontButton.addEventListener('click', () => {
-  currentFontSize -= 2;
-  updateFontSize();
-});
+   const aumentaFonteBotao = document.getElementById('aumentar-fonte');
+   const diminuiFonteBotao = document.getElementById('diminuir-fonte');
+   
+   const alternaContraste = document.getElementById('alterna-contraste')
 
-function updateFontSize() {
-  paragraphs.forEach(paragraph => {
-    paragraph.style.fontSize = `${currentFontSize}px`;
-  });
-  headings.forEach(heading => { // Aplicando o tamanho da fonte aos h2
-    heading.style.fontSize = `${currentFontSize}px`;
-  });
-}
+   let tamanhoAtualFonte = 1;
+
+   aumentaFonteBotao.addEventListener('click', function(){
+       tamanhoAtualFonte += 0.1;
+       document.body.style.fontSize = `${tamanhoAtualFonte}rem`
+
+   })
+
+   diminuiFonteBotao.addEventListener('click', function(){
+       tamanhoAtualFonte -= 0.1;
+       document.body.style.fontSize = `${tamanhoAtualFonte}rem`
+
+   })
+
+   alternaContraste.addEventListener('click', function(){
+       document.body.classList.toggle('alto-contraste')
+   })
+
+
+})
+
+ScrollReveal().reveal('#inicio', { delay: 500 });
+ScrollReveal().reveal('#tropicalia', { delay: 500 });
+ScrollReveal().reveal('#galeria', { delay: 500 });
+ScrollReveal().reveal('#contato', { delay: 500 });
