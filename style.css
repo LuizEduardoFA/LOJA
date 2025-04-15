@@ -7,29 +7,102 @@
   box-sizing: border-box;
 }
 
-#accessibility-buttons {
-  position: fixed;
-  top: 50%; /* Alinha ao meio verticalmente */
-  right: 0; /* Colado à lateral direita */
-  transform: translateY(-50%); /* Centraliza perfeitamente */
+/* Estilos para o menu de acessibilidade */
+.menu-acessibilidade {
+  position: fixed; /* Para ficar sempre visível na tela */
+  top: 20px; /* Ajuste a posição vertical conforme necessário */
+  left: 20px; /* Ajuste a posição horizontal conforme necessário */
+  z-index: 1000; /* Para garantir que fique acima de outros elementos */
 }
 
-#accessibility-buttons button {
-  font-size: 16px;
+/* Estilo para o botão de acessibilidade */
+#botao-acessibilidade {
+  background-color: #333; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none;
   padding: 10px 15px;
-  margin-left: 5px;
-  border: none; /* Remove a borda padrão */
-  border-radius: 10px; /* Deixa as bordas arredondadas */
-  background-color: #007BFF; /* Um tom de azul */
-  color: white; /* Cor do texto */
-  cursor: pointer; /* Mostra o cursor de link ao passar o mouse */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
-  transition: all 0.3s ease; /* Animações suaves para hover */
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out; /* Para a rotação suave */
 }
 
-#accessibility-buttons button:hover {
-  background-color: #0056b3; /* Azul mais escuro no hover */
-  transform: scale(1.1); /* Aumenta levemente ao passar o mouse */
+#botao-acessibilidade:hover {
+  background-color: #555;
+}
+
+/* Estilo para a rotação do botão */
+.rotacao-botao {
+  transform: rotate(0deg); /* Inicialmente sem rotação */
+}
+
+.rotacao-botao.rotacao-botao { /* Quando a classe 'rotacao-botao' é adicionada pelo JS */
+  transform: rotate(180deg); /* Rotaciona 180 graus */
+}
+
+/* Estilo para as opções de acessibilidade (inicialmente escondidas) */
+.opcoes-acessibilidade {
+  display: none; /* Esconde as opções por padrão */
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para mostrar as opções de acessibilidade */
+.opcoes-acessibilidade.apresenta-lista {
+  display: block; /* Mostra as opções quando a classe é adicionada pelo JS */
+}
+
+/* Estilo para os botões de aumentar/diminuir fonte e contraste */
+.opcoes-acessibilidade button {
+  background-color: #007bff; /* Cor de fundo dos botões de opção */
+  color: #fff; /* Cor do texto dos botões de opção */
+  border: none;
+  padding: 8px 12px;
+  margin-right: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.opcoes-acessibilidade button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para o alto contraste */
+.alto-contraste {
+  --alto-contraste-fundo: #000; /* Cor de fundo preta */
+  --alto-contraste-texto: #fff; /* Cor do texto branca */
+  --alto-contraste-link: #ffff00; /* Cor do link amarela */
+  background-color: var(--alto-contraste-fundo);
+  color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario { /* Se você tiver um formulário */
+  background-color: var(--alto-contraste-fundo);
+  color: var(--alto-contraste-texto);
+}
+
+.alto-contraste a {
+  color: var(--alto-contraste-link);
+}
+
+.alto-contraste .btn-primary, /* Estilo para botões com a classe 'btn-primary' */
+.alto-contraste .product-card { /* Exemplo para os cards de produto */
+  background-color: #222; /* Um tom de cinza escuro */
+  border: 1px solid #444;
+}
+
+.alto-contraste .product-title,
+.alto-contraste .Ano,
+.alto-contraste .product-price {
+  color: var(--alto-contraste-texto);
 }
 
 /* Estilo para o corpo da página */
@@ -48,28 +121,6 @@ body {
   background-color: #282828;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.alto-contraste{
-  background-color: var(--alto-contraste-fundo);
-  color: var(--alto-contraste-texto);
-}
-
-.alto-contraste header,
-.alto-contraste footer,
-.alto-contraste .formulario{
-  background-color: var(--alto-contraste-fundo);
-  color: var(--alto-contraste-texto);
-}
-
-.alto-contraste .nav-link{
-  color: var(--alto-contraste-link);
-}
-
-.alto-contraste .botao-inicio,
-.alto-contraste .formulario button,
-.alto-contraste .btn-primary{
-  background-color: var(--alto-contraste-link);
-  color: var(--alto-contraste-fundo)
 }
 
 /* Logo da loja */
