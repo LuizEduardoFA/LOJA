@@ -66,10 +66,9 @@
   margin-right: 5px;
   border-radius: 3px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 0.875rem; /* Equivalente a 14px se o body tiver 16px */
   font-weight: bold;
 }
-
 .opcoes-acessibilidade button:hover {
   background-color: #0056b3;
 }
