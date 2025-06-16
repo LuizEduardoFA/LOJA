@@ -71,6 +71,7 @@ display: none;
   height: auto;
   position: relative;
   text-align: center;
+  transition: 1s;
 }
 
 .navmanual, .navauto{
@@ -82,7 +83,7 @@ display: none;
 }
 
 .navmanual .btnmanual, .navauto div{
-border: 1px solid red;
+border: 2px solid rgba(253, 253, 253, 0.055);
 padding: 10px;
 border-radius: 50%;
 cursor: pointer;
@@ -97,13 +98,25 @@ transition: 0.5s;
 }
 
 #rad1:checked ~ .navauto .autobtn1{
-  background-color: #961708;
+  background-color: #4575db;
 }
 #rad2:checked ~ .navauto .autobtn2{
   background-color: #961708;
 }
 #rad3:checked ~ .navauto .autobtn3{
-  background-color: #961708;
+  background-color: #8f8f8f;
+}
+
+#rad1:checked ~ .first{
+  margin-left: 0%;
+}
+
+#rad2:checked ~ .first{
+  margin-left: -25%;
+}
+
+#rad3:checked ~ .first{
+  margin-left: -50%;
 }
 /* Estilos gerais do container de produtos */
 .container {
