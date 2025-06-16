@@ -21,7 +21,6 @@ body {
 
 /* Estilo do header */
 .header-container {
-  
   align-items: center;
   width: 300px;
   border-radius: 10px;
@@ -30,8 +29,7 @@ body {
   background-color: #8a8a8a;
   padding: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-right: 800px;
-  margin-left: 800px;
+  margin: 0 auto;
 }
 
 /* Logo da loja */
@@ -47,6 +45,58 @@ body {
   font-size: 30px;
   color: #fff;
 }
+
+section.carroselmostruário{
+margin-top: 5%;
+width: 100%;
+height: auto;
+padding: 0;
+overflow: hidden;
+
+}
+
+.slides{
+ width: 400%;
+ height: auto;
+ display: flex;
+
+}
+
+.slides input{
+display: none;
+}
+
+.slidebox{
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+.navmanual, .navauto{
+  position: absolute;
+  width: 100%;
+  margin-top: 28%;
+  display: flex;
+  justify-content: center;
+}
+
+.navmanual .btnmanual, .navauto div{
+border: 1px solid red;
+padding: 10px;
+border-radius: 50%;
+cursor: pointer;
+transition: 0.5s;
+}
+.navmanual .btnmanual:not(:last-child), .navauto div:not(:last-child){
+  margin-right: 5px;
+}
+
+.navmanual .btnmanual:hover{
+  background-color: #961708;
+}
+
+
 
 /* Estilos gerais do container de produtos */
 .container {
@@ -112,7 +162,7 @@ a {
 }
 
 .vendido {
-  background-color: #989898;
+  background-color: #535353;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
