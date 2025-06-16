@@ -15,7 +15,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
   padding-top: 50px;
   font-size: 1rem; 
 }
@@ -28,7 +27,7 @@ body {
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  background-color: #282828;
+  background-color: #8a8a8a;
   padding: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-right: 800px;
