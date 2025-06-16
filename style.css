@@ -8,127 +8,39 @@
   box-sizing: border-box;
 }
 
-/* Estilos para o menu de acessibilidade */
-.menu-acessibilidade {
-  position: fixed; /* Para ficar sempre visível na tela */
-  top: 20px; /* Ajuste a posição vertical conforme necessário */
-  left: 20px; /* Ajuste a posição horizontal conforme necessário */
-  z-index: 1000; /* Para garantir que fique acima de outros elementos */
-}
 
-/* Estilo para o botão de acessibilidade */
-#botao-acessibilidade {
-  background-color: #333; /* Cor de fundo do botão */
-  color: #fff; /* Cor do texto do botão */
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: transform 0.3s ease-in-out; /* Para a rotação suave */
-}
-
-#botao-acessibilidade:hover {
-  background-color: #555;
-}
-
-/* Estilo para a rotação do botão */
-.rotacao-botao {
-  transform: rotate(0deg); /* Inicialmente sem rotação */
-}
-
-.rotacao-botao.rotacao-botao { /* Quando a classe 'rotacao-botao' é adicionada pelo JS */
-  transform: rotate(360deg); /* Rotaciona 360 graus */
-}
-
-/* Estilo para as opções de acessibilidade (inicialmente escondidas) */
-.opcoes-acessibilidade {
-  display: none; /* Esconde as opções por padrão */
-  margin-top: 10px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Estilo para mostrar as opções de acessibilidade */
-.opcoes-acessibilidade.apresenta-lista {
-  display: block; /* Mostra as opções quando a classe é adicionada pelo JS */
-}
-
-/* Estilo para os botões de aumentar/diminuir fonte e contraste */
-.opcoes-acessibilidade button {
-  background-color: #007bff; /* Cor de fundo dos botões de opção */
-  color: #fff; /* Cor do texto dos botões de opção */
-  border: none;
-  padding: 8px 12px;
-  margin-right: 5px;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 0.875rem; /* Equivalente a 14px se o body tiver 16px */
-  font-weight: bold;
-}
-.opcoes-acessibilidade button:hover {
-  background-color: #0056b3;
-}
-
-/* Estilos para o alto contraste */
-.alto-contraste {
-  --alto-contraste-fundo: #000; /* Cor de fundo preta */
-  --alto-contraste-texto: #fff; /* Cor do texto branca */
-  --alto-contraste-link: #ffff00; /* Cor do link amarela */
-  background-color: var(--alto-contraste-fundo);
-  color: var(--alto-contraste-texto);
-}
-
-.alto-contraste header,
-.alto-contraste footer,
-.alto-contraste .formulario { /* Se você tiver um formulário */
-  background-color: var(--alto-contraste-fundo);
-  color: var(--alto-contraste-texto);
-}
-
-.alto-contraste a {
-  color: var(--alto-contraste-link);
-}
-
-.alto-contraste .btn-primary, /* Estilo para botões com a classe 'btn-primary' */
-.alto-contraste .product-card { /* Exemplo para os cards de produto */
-  background-color: #222; /* Um tom de cinza escuro */
-  border: 1px solid #444;
-}
-
-.alto-contraste .product-title,
-.alto-contraste .Ano,
-.alto-contraste .product-price {
-  color: var(--alto-contraste-texto);
-}
-
-/* Estilo para o corpo da página */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
+  background-image: url(img/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
   padding-top: 50px;
-  font-size: 1rem; /* Adicionado para ser a base do tamanho da fonte */
+  font-size: 1rem; 
 }
 
 /* Estilo do header */
 .header-container {
+  
+  align-items: center;
+  width: 300px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: #282828;
-  padding: 10px;
+  padding: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 800px;
+  margin-left: 800px;
 }
 
 /* Logo da loja */
 .logo {
-  width: 150px;
+  width: 250px;
   height: auto;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* Ícone do carrinho */
@@ -144,6 +56,7 @@ body {
   padding: 20px;
   flex-wrap: wrap;
     align-content: flex-start;
+  
 }
 a {
   text-decoration: none; /* Remove a linha de sublinhado dos links */
@@ -154,12 +67,15 @@ a {
 .product-card {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.082);
+  border-width: 5px;
+  border-style: groove;
   overflow: hidden;
   width: 300px;
   margin: 20px;
   text-align: center;
   transition: transform 0.3s ease-in-out;
+ 
 }
 
 /* Efeito de hover para o card de produto */
