@@ -96,8 +96,15 @@ transition: 0.5s;
   background-color: #961708;
 }
 
-
-
+#rad1:checked ~ .navauto .autobtn1{
+  background-color: #961708;
+}
+#rad2:checked ~ .navauto .autobtn2{
+  background-color: #961708;
+}
+#rad3:checked ~ .navauto .autobtn3{
+  background-color: #961708;
+}
 /* Estilos gerais do container de produtos */
 .container {
   display: flex;

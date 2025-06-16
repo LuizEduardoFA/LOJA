@@ -1,7 +1,7 @@
-var radio = document.querySelector( '.btnmanual')
+var rad = document.querySelector( '.btnmanual')
 var cont = 1 
 
-document.getElementById('radio1').checked = true 
+document.getElementById('rad1').checked = true 
 
 setInterval(() => (
     proximaImg()
@@ -13,5 +13,5 @@ function  proximaImg(){
         cont = 1
     }
 
-    document.getElementById('radio'+cont).checked = true 
+    document.getElementById('rad'+cont).checked = true 
 }
