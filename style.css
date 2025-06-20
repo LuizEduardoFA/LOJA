@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
-/* Resetando margens e padding */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,32 +19,25 @@ body {
   font-size: 1rem; 
 }
 
-/* Estilo do header */
+
 .header-container {
   align-items: center;
-  width: 300px;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #8a8a8a;
   padding: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
+  margin-top: ;
 }
 
-/* Logo da loja */
+
 .logo {
   width: 250px;
   height: auto;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 
-/* Ícone do carrinho */
-.icon {
-  font-size: 30px;
-  color: #fff;
-}
 
 section.carroselmostruário{
 margin-top: 5%;
@@ -59,6 +52,7 @@ overflow: hidden;
  width: 400%;
  height: auto;
  display: flex;
+ 
 
 }
 
@@ -74,10 +68,15 @@ display: none;
   transition: 1s;
 }
 
+.slidebox img{
+border-radius: 5%;
+box-shadow: #333;
+
+}
 .navmanual, .navauto{
   position: absolute;
   width: 100%;
-  margin-top: 28%;
+  margin-top: 40%;
   display: flex;
   justify-content: center;
 }
