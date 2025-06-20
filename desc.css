@@ -51,23 +51,23 @@ header a:hover {
     left: 20px; /* Distância da lateral esquerda */
 }
 
-/* Ícone de flecha */
+
 .back-icon {
-    margin-right: 8px; /* Espaço entre o ícone e o texto */
-    font-size: 18px; /* Tamanho ligeiramente maior para o ícone */
+    margin-right: 8px;
+    font-size: 18px; 
 
 }
 .back-link:hover {
-    background-color: #27ae60; /* Cor mais escura ao passar o mouse */
+    background-color: #27ae60; 
     color: #fff;
 }
 
-/* Conteúdo principal */
+
 main {
     max-width: 1200px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: #fff; /* Fundo branco */
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

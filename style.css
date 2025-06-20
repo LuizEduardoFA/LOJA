@@ -11,25 +11,28 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-image: url(img/back.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #f4f4f4;; 
   padding-top: 50px;
   font-size: 1rem; 
 }
 
+.fixed{
+position: sticky;
+margin-top:-4.5%;
 
+
+
+}
 .header-container {
   align-items: center;
-  border-radius: 10px;
   display: flex;
   justify-content: flex-start;
-  background-color: #8a8a8a;
+  background-color: #f4f4f4;
   padding: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
-  margin-top: ;
+  margin-top: 0;
+
 }
 
 
@@ -38,6 +41,10 @@ body {
   height: auto;
 }
 
+.condicoesv, .condicoest, .codicoesf{
+  
+
+}
 
 section.carroselmostruário{
 margin-top: 5%;
@@ -120,10 +127,16 @@ transition: 0.5s;
 /* Estilos gerais do container de produtos */
 .container {
   display: flex;
+  margin-top: 35px;
+  margin-left: 12%;
+  margin-right: 12%;
   justify-content: center;
-  padding: 20px;
+  padding: ;
   flex-wrap: wrap;
-    align-content: flex-start;
+  align-content: flex-start;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   
 }
 a {
@@ -181,7 +194,7 @@ a {
 }
 
 .vendido {
-  background-color: #535353;
+  background-color: #9b9b9b;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
