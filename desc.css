@@ -232,7 +232,9 @@ a:hover {
     main {
         padding: 1rem;
     }
-
+    .back-link{
+    margin-top: 1%;
+    }
     .image-container {
         flex-direction: column;
         gap: 1rem;

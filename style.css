@@ -307,10 +307,10 @@ footer {
     align-items: center;
   }
   .slidebox img {
-    width: 70%;
+    width: 80%;
   }
   .navmanual, .navauto{
-  margin-top: 7%;
+  margin-top: 15%;
   
   }
 }
