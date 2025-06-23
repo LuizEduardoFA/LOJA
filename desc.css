@@ -233,6 +233,8 @@ a:hover {
         padding: 1rem;
     }
     .back-link{
+        justify-content: center;
+        align-items: center;
     margin-top: 3%;
     }
     .image-container {
