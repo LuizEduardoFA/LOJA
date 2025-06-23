@@ -233,7 +233,7 @@ a:hover {
         padding: 1rem;
     }
     .back-link{
-    margin-top: 1%;
+    margin-top: 3%;
     }
     .image-container {
         flex-direction: column;
@@ -261,4 +261,3 @@ a:hover {
     
 
     }
-}
