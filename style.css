@@ -301,7 +301,9 @@ footer {
   .product-card {
     width: 90%;
   }
-
+  .condicoes{
+    margin-top: -3%;
+  }
   .container {
     flex-direction: column;
     align-items: center;
