@@ -16,6 +16,21 @@ body {
   font-size: 1rem; 
 }
 
+section.video{
+  border-radius: 10%;
+  margin:  ;
+}
+
+.abertura video{
+  width: 99%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-itens: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .fixed{
 position: sticky;
 margin-top:-4.5%;
@@ -28,7 +43,7 @@ margin-top:-4.5%;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
-  margin-top: 1.1%;
+  margin-top: 1.3%;
 
 }
 
@@ -58,7 +73,7 @@ margin-top:-4.5%;
    font-family: var(--font-dm-sans);
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 30px;
     line-height: 20px;
     letter-spacing: 0px;
     transition: 0.2s;
@@ -68,7 +83,7 @@ margin-top:-4.5%;
     font-style: normal;
     border:none;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 30px;
     line-height: 20px;
     letter-spacing: 0px;
     margin-right: 5px;
