@@ -233,7 +233,8 @@ a:hover {
         padding: 1rem;
     }
     .back-link{
-        justify-content: center;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
         margin-top: 3%;
     }
