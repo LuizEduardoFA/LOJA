@@ -249,11 +249,14 @@ a:hover {
     }
 
     .main-image img {
-        width: 100%;
+        width: 60%;
     }
 
     .car-info {
         grid-template-columns: 1fr; /* Coloca tudo em uma coluna para telas menores */
         gap: 0.5rem;
+    }
+    
+
     }
 }
