@@ -302,7 +302,7 @@ footer {
     width: 90%;
   }
   .condicoes{
-    margin-top: -10%;
+    margin-top: 6%;
   }
   .container {
     flex-direction: column;
@@ -312,7 +312,7 @@ footer {
     width: 90%;
   }
   .navmanual, .navauto{
-  margin-top: 55%;
+  margin-top: 52%;
   
   }
 }
