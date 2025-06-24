@@ -177,10 +177,9 @@ transition: 0.5s;
 .container {
   display: flex;
   margin-top: 35px;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 10%;
+  margin-right: 10%;
   justify-content: center;
- 
   flex-wrap: wrap;
   align-content: flex-start;
   background-color: #fff;
