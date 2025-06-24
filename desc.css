@@ -47,7 +47,7 @@ header a:hover {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    position: absolute; /* Posicionamento absoluto */
+    position: babsolute; /* Posicionamento absoluto */
     margin-top: 7px; /* Distância do topo da página ou container */
     margin-left: 20px; /* Distância da lateral esquerda */
 }
