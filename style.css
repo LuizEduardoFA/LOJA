@@ -8,14 +8,14 @@
   box-sizing: border-box;
 }
 
-
+/*//////////////////////////corpo////////////////////////////*/
 body {
  font-family: 'Montserrat', sans-serif;
   background-color: #f4f4f4; 
   padding-top: 50px;
   font-size: 1rem; 
 }
-
+/*/////////////////////////Abertura//////////////////////////*/
 section.video{
   border-radius: 10%;
  
@@ -31,12 +31,14 @@ section.video{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/*/////////////////////////////Fim da abertura////////////////////*/
+
 .fixed{
 position: sticky;
 margin-top:-4.5%;
 
 
-
+/*/////////////////////////Cabeçalho////////////////////////////*/
 }
 .header-container {
   background-color: #f4f4f4;
@@ -94,6 +96,8 @@ margin-top:-4.5%;
   color: #4575db;
 
 }
+
+/*///////////////////////////Carrosel mostruário////////////////////*/
 section.carroselmostruário{
 margin-top: 5%;
 width: 100%;
@@ -173,7 +177,7 @@ transition: 0.5s;
 #rad3:checked ~ .first{
   margin-left: -50%;
 }
-/* Estilos gerais do container de produtos */
+/*//////////////////////////// Estoque ///////////////////////////*/
 .container {
   display: flex;
   margin-top: 35px;
@@ -188,11 +192,11 @@ transition: 0.5s;
   
 }
 a {
-  text-decoration: none; /* Remove a linha de sublinhado dos links */
-  color: inherit; /* Mantém a cor do texto padrão */
+  text-decoration: none; 
+  color: inherit;
 }
 
-/* Estilo do card de produto */
+
 .product-card {
   background-color: #fff;
   border-radius: 8px;
@@ -207,37 +211,37 @@ a {
  
 }
 
-/* Efeito de hover para o card de produto */
+
 .product-card:hover {
   transform: translateY(-10px);
 }
 
-/* Imagem do produto */
+
 .product-img {
   width: 100%;
   height: auto;
   border-bottom: 1px solid #ddd;
 }
 
-/* Título do produto */
+
 .product-title {
    font-family: 'Lemon', cursive;
-  font-size: 1.5rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
+  font-size: 1.5rem; 
   font-weight: 600;
   margin: 15px 0;
   color: #333;
 }
 
 .Ano {
-  font-size: 1.5rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
+  font-size: 1.5rem; 
   font-weight: 600;
   margin: 15px 0;
   color: #333;
 }
 
-/* Preço do produto */
+
 .product-price {
-  font-size: 1.25rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
+  font-size: 1.25rem; 
   color: #e74c3c;
   margin-bottom: 20px;
 }
@@ -252,39 +256,38 @@ a {
   text-align: center;
   transition: transform 0.3s ease-in-out;
 }
-
-/* Estilo do botão */
+/*/////////////////////Botão de Contato/////////////////////////////*/
 .contact-button {
   background-color: #2ecc71;
   color: #fff;
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
-  font-size: 1rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
+  font-size: 1rem; 
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 footer {
-  background-color: #f8f9fa; /* Cor de fundo do rodapé */
-    color: #333; /* Cor do texto */
-    text-align: center; /* Centraliza o conteúdo */
-    font-size: 0.75rem; /* Usando rem para ser relativo ao tamanho da fonte do body */
-    padding: 5px 10px; /* Reduzido para um rodapé mais fino */
-    margin-top: 10px; /* Menor espaço entre o rodapé e o conteúdo acima */
-    border-top: 1px solid #ddd; /* Linha sutil no topo */
+  background-color: #f8f9fa; 
+    color: #333; 
+    text-align: center; 
+    font-size: 0.75rem; 
+    padding: 5px 10px; 
+    margin-top: 10px; 
+    border-top: 1px solid #ddd; 
 }
-/* Hover do botão */
+
 .contact-button:hover {
   background-color: #27ae60;
 }
 
-/* Link no botão */
+
 .contact-button a {
   color: #fff;
   text-decoration: none;
 }
 
-/* Responsividade */
+/*//////////////////////////////Responsividade//////////////////////////*/
 @media (max-width: 1024px) {
   .container {
     margin-left: 5%;

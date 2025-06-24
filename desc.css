@@ -1,16 +1,15 @@
-/* Estilo geral */
+/*//////////////////////////Corpo//////////////////////////*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Cinza claro para o fundo */
-    color: #333; /* Cinza escuro para o texto */
-}
+    background-color: #f4f4f4; 
+    color: #333; 
 
-/* Cabeçalho */
+/*//////////////////////////////Cabeçalho///////////////////////////////*/
 header {
-    background-color: #333; /* Cinza escuro */
-    color: #fff; /* Texto branco */
+    background-color: #333; 
+    color: #fff; 
     padding: 1rem 2rem;
     text-align: center;
     position: sticky;
@@ -35,10 +34,12 @@ header a:hover {
     text-decoration: none;
     
 }
+
+/*//////////////////////// Voltar para o catálago////////////////////*/
 .back-link {
     
-    display: inline-flex; /* Flexbox para alinhar o ícone e o texto */
-    text-decoration: none; /* Remove o sublinhado */
+    display: inline-flex; 
+    text-decoration: none;
     background-color: #2ecc71;
     color: #fff;
     padding: 12px 20px;
@@ -47,9 +48,9 @@ header a:hover {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    position: babsolute; /* Posicionamento absoluto */
-    margin-top: 2px; /* Distância do topo da página ou container */
-    margin-left: 30px; /* Distância da lateral esquerda */
+    position: babsolute; 
+    margin-top: 2px;
+    margin-left: 30px; 
 }
 
 
@@ -63,7 +64,7 @@ header a:hover {
     color: #fff;
 }
 
-
+/*///////////////////////// Main //////////////////////////////*/
 main {
     max-width: 1200px;
     margin: 2rem auto;
@@ -73,30 +74,30 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Seção de detalhes do carro */
+/*///////////////////////Detalhes do carro////////////////////////*/
 .car-details {
     display: flex;
     gap: 2rem;
     justify-content: center;
-    flex-direction: column; /* Deixe a coluna como estava */
+    flex-direction: column; 
     align-items: center;
 }
-
+/*///////////////// limitador da imagem/////////////////////*/
 .image-container {
     display: flex;
-    flex-direction: row; /* Miniaturas ao lado da imagem principal */
-    gap: 2rem; /* Espaçamento entre as miniaturas e a imagem principal */
-    align-items: flex-start; /* Alinha no topo */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    width: 100%; /* Garante que o container ocupe a largura total */
-    margin: 0 auto; /* Centraliza o container */
+    flex-direction: row; 
+    gap: 2rem; 
+    align-items: flex-start; 
+    justify-content: center; 
+    width: 100%; 
+    margin: 0 auto;
 }
-
+/*////////////////////////seletor de imagens/////////////////////////*/
 .thumbnail-bar {
     display: flex;
-    flex-direction: column; /* Miniaturas organizadas em uma coluna */
-    gap: 1rem; /* Espaçamento entre as miniaturas */
-    justify-content: flex-start; /* Alinha as miniaturas ao topo */
+    flex-direction: column; 
+    gap: 1rem;
+    justify-content: flex-start; 
 }
 
 .thumbnail-bar img {
@@ -108,18 +109,18 @@ main {
 }
 
 .thumbnail-bar img:hover {
-    transform: scale(1.1); /* Efeito de zoom suave ao passar o mouse */
+    transform: scale(1.1); 
 }
 .image-zoom-container {
     position: relative;
-    width: 600px; /* Ajuste conforme necessário */
+    width: 600px; 
     height: auto;
     overflow: hidden;
 }
 
-/* Estilo da imagem principal */
+/*/////////////////////// Imagem central///////////////////////////*/
 .main-image {
-    width: 100%; /* Ocupa todo o container */
+    width: 100%; 
     height: auto;
     display: block;
 }
@@ -129,14 +130,14 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    transition: transform 0.3s ease; /* Suaviza o efeito de zoom */
+    transition: transform 0.3s ease; 
 }
 .main-image img:hover {
-    transform: scale(1.05); /* Aplica um leve zoom ao passar o mouse */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona um destaque com sombra opcional */
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Títulos e texto */
+/*///////////////////// fontes de informação///////////////////////*/
 .car-details h2 {
     font-size: 2rem;
     color: #666;
@@ -147,16 +148,16 @@ main {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
-    text-align: center; /* Centraliza a descrição */
+    text-align: center; 
 }
 
 .car-info {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Cria 2 colunas */
+    grid-template-columns: 1fr 1fr; 
     gap: 1rem;
     margin-top: 1rem;
-    max-width: 600px; /* Limita a largura */
-    text-align: center; /* Centraliza as informações */
+    max-width: 600px; 
+    text-align: center; 
 }
 
 .info-item {
@@ -169,6 +170,7 @@ main {
 .info-item strong {
     font-weight: bold;
 }
+/*/////////////////////////////////////////////Desativado////////////////////////////////////////
 .contact-button {
     background-color: #2ecc71;
     color: #fff;
@@ -180,43 +182,45 @@ main {
     transition: background-color 0.3s ease;
   }
   
-  /* Hover do botão */
+  
   .contact-button:hover {
     background-color: #27ae60;
     text-decoration: none;
   }
   
-  /* Link no botão */
+ 
   .contact-button a {
     text-decoration: none;
     color: #ffffff;
         
   }
+ ///////////////////////////////////////////////Desativado/////////////////////////////////////////*/
 
-/* Rodapé */
+ /*//////////////////////////////////////Rodapé///////////////////////////////////////*/
 footer {
-    background-color: #f8f9fa; /* Cor de fundo do rodapé */
-    color: #333; /* Cor do texto */
-    text-align: center; /* Centraliza o conteúdo */
-    font-size: 12px; /* Tamanho menor para o texto */
-    padding: 5px 10px; /* Reduzido para um rodapé mais fino */
-    margin-top: 10px; /* Menor espaço entre o rodapé e o conteúdo acima */
-    border-top: 1px solid #ddd; /* Linha sutil no topo */
+    background-color: #f8f9fa; 
+    color: #333; 
+    text-align: center; 
+    font-size: 12px; 
+    padding: 5px 10px;
+    margin-top: 10px; 
+    border-top: 1px solid #ddd; 
 }
 
-/* Hover do botão */
+/* /////////////////////////////////////////////Desativado//////////////////////////////////////////
 .contact-button:hover {
     background-color: #27ae60;
   }
   
-  /* Link no botão */
+
   .contact-button a:hover {
     color: #fff;
     text-decoration: none;
   }
   
+/////////////////////////////////////////////////Desativado//////////////////////////////////////////*/
 
-/* Links gerais */
+/*//////////////////////////////////////////// Fodase /////////////////////////////////////////////////*/
 a {
     color: #b3b3b3;
     text-decoration: none;
@@ -228,7 +232,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* Responsividade */
+/*///////////////////////////////////////////Responsividade///////////////////////////////////////////////////*/
 @media (max-width: 768px) {
     main {
         padding: 1rem;
@@ -259,7 +263,7 @@ a:hover {
     }
 
     .car-info {
-        grid-template-columns: 1fr; /* Coloca tudo em uma coluna para telas menores */
+        grid-template-columns: 1fr; 
         gap: 0.5rem;
     }
     
