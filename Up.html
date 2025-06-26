@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Up</title>
+    <link rel="stylesheet" href="desc.css">
+</head>
+<body>
+    <header>
+        <h1>Up</h1>
+        <a href="index.html" class="back-link">
+            <span class="back-icon">←</span> Voltar para o catálogo
+        </a>
+    </header>
+    <main>
+        <section class="car-details">
+
+            <div class="image-container">
+                <!-- Barra de imagens à esquerda -->
+                <div class="thumbnail-bar">
+                    <img src="new Capas/Up Capa.png" alt="Imagem 1" class="thumbnail" onclick="changeImage('new Capas/Up Capa.png')">
+                    <img src="new var/Up i.png" alt="Imagem 2" class="thumbnail" onclick="changeImage('new var/Up i.png')">
+                    <img src="new var/Up L.png i.png" alt="Imagem 3" class="thumbnail" onclick="changeImage('new var/Up L.png i.png')">
+                    <img src="new var/Up T.png" alt="Imagem 2" class="thumbnail" onclick="changeImage('new var/Up T.png')">
+                    
+                    <!-- Adicione mais miniaturas conforme necessário -->
+                </div>
+                
+                <div class="image-zoom-container">  
+                <div class="main-image">
+                    <img id="main-img" src="new Capas/Up Capa.png" alt="Ford Mustang">
+                   
+                </div>
+            </div>
+            </div>
+
+
+            <div class="car-info">
+                <div class="info-item">
+                    <strong>Marca:</strong> volkswagen
+                </div>
+                <div class="info-item">
+                    <strong>Modelo:</strong> Up
+                </div>
+                <div class="info-item">
+                    <strong>Ano:</strong> 2015
+                </div>
+                <div class="info-item">
+                    <strong>Quilometragem:</strong> .000
+                </div>
+                <div class="info-item">
+                    <strong>Ar condicionado</strong> 
+                </div>
+                <div class="info-item">
+                    <strong>Direção Hidráulica</strong>
+                </div>
+                <div class="info-item">
+                    <strong>Vidro Elétrico</strong> 
+                </div>
+                <div class="info-item">
+                    <strong>Trava Elétrica</strong>
+                </div>
+                <div class="info-item">
+                    <strong>Preço:</strong> R$ 43.000
+                </div>
+            </div>
+            
+          
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Veneza Multimarcas</p>
+        <p>&copy; 2025 - LuizEduardoFA</p>
+    </footer>
+    
+    <script>
+        // Função para mudar a imagem principal ao clicar nas miniaturas
+        function changeImage(src) {
+            document.getElementById('main-img').src = src;
+        }
+        
+    </script>
+    
+</body>
+</html>
