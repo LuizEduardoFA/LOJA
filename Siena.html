@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gran Siena Essênce</title>
+    <link rel="stylesheet" href="desc.css">
+</head>
+<body>
+    <header>
+        <h1>Gran Siena Essênce</h1>
+        <a href="index.html" class="back-link">
+            <span class="back-icon">←</span> Voltar para o catálogo
+        </a>
+    </header>
+    <main>
+        <section class="car-details">
+
+            <div class="image-container">
+                <div class="thumbnail-bar">
+                    <img src="new Capas/Siena L.png" alt="Imagem 1" class="thumbnail" onclick="changeImage('new Capas/Siena L.png')">
+                    <img src="new var/Siena F.png" alt="Imagem 2" class="thumbnail" onclick="changeImage('new var/Siena F.png')">
+                    <img src="new var/Siena I.png " alt="Imagem 3" class="thumbnail" onclick="changeImage('new var/Siena I.png')">
+                    <img src="new var/Siena T.png" alt="Imagem 4" class="thumbnail" onclick="changeImage('new var/Siena T.png')">
+                </div>
+                <div class="image-zoom-container">  
+                    <div class="main-image">
+                        <img id="main-img" src="new Capas/Siena L.png" alt="Gran Siena Essênce">
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-info">
+                <div class="info-item"><strong>Marca:</strong> FIAT</div>
+                <div class="info-item"><strong>Modelo:</strong> Gran Siena Essênce</div>
+                <div class="info-item"><strong>Ano:</strong> 2014</div>
+                <div class="info-item"><strong>Cor:</strong> Branco</div>
+                <div class="info-item"><strong>Motor:</strong> 1.6</div>
+                <div class="info-item"><strong>Configuração:</strong> Completo</div>
+                <div class="info-item"><strong>Preço:</strong> R$ 41,500.00</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Veneza Multimarcas</p>
+        <p>&copy; 2025 - LuizEduardoFA</p>
+    </footer>
+    <script>
+        function changeImage(src) {
+            document.getElementById('main-img').src = src;
+        }
+    </script>
+</body>
+</html>
