@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amarok V6</title>
+    <link rel="stylesheet" href="desc.css">
+</head>
+<body>
+    <header>
+        <h1>Amarok V6</h1>
+        <a href="index.html" class="back-link">
+            <span class="back-icon">←</span> Voltar para o catálogo
+        </a>
+    </header>
+    <main>
+        <section class="car-details">
+
+            <div class="image-container">
+                <div class="thumbnail-bar">
+                    <img src="new var/Amarok_2v.png" alt="Imagem 1" class="thumbnail" onclick="changeImage('new var/Amarok_2v.png')">
+                    <img src="new var/Amarok_3v.png" alt="Imagem 2" class="thumbnail" onclick="changeImage('new var/Amarok_3v.png')">
+                    <img src="new var/Amarok_4v.png" alt="Imagem 3" class="thumbnail" onclick="changeImage('new var/Amarok_4v.png')">
+                    <img src="new var/Amarok_1v.png" alt="Imagem 4" class="thumbnail" onclick="changeImage('new var/Amarok_1v.png')">
+                  
+                </div>
+                
+                <div class="image-zoom-container"> 
+                    <div class="main-image">
+                        <img id="main-img" src="new var/Amarok_2v.png" alt="Volkswagen Amarok V6">
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-info">
+                <div class="info-item">
+                    <strong>Marca:</strong> Volkswagen
+                </div>
+                <div class="info-item">
+                    <strong>Modelo:</strong> Amarok V6
+                </div>
+                <div class="info-item">
+                    <strong>Ano:</strong> 2019
+                </div>
+                <div class="info-item">
+                    <strong>Quilometragem:</strong> 130.000
+                </div>
+                <div class="info-item">
+                    <strong>Ar condicionado</strong> 
+                </div>
+                <div class="info-item">
+                    <strong>Direção Hidráulica</strong>
+                </div>
+                <div class="info-item">
+                    <strong>Vidro Elétrico</strong> 
+                </div>
+                <div class="info-item">
+                    <strong>Trava Elétrica</strong>
+                </div>
+                <div class="info-item">
+                    <strong>Tração:</strong> 4x4
+                </div>
+                <div class="info-item">
+                    <strong>Transmissão:</strong> Automática
+                </div>
+                <div class="info-item">
+                    <strong>Motor:</strong> V6 (Diesel)
+                </div>
+                <div class="info-item">
+                    <strong>Preço:</strong> R$ 155.000,00
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Veneza Multimarcas</p>
+        <p>&copy; 2025 - LuizEduardoFA</p>
+    </footer>
+    
+    <script>
+        // Função para mudar a imagem principal ao clicar nas miniaturas
+        function changeImage(src) {
+            document.getElementById('main-img').src = src;
+        }
+    </script>
+    
+</body>
+</html>
