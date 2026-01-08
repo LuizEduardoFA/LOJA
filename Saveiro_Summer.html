@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveiro Summer</title>
+    <link rel="stylesheet" href="desc.css">
+</head>
+<body>
+    <header>
+        <h1>Saveiro Summer</h1>
+        <a href="index.html" class="back-link">
+            <span class="back-icon">←</span> Voltar para o catálogo
+        </a>
+    </header>
+    <main>
+        <section class="car-details">
+
+            <div class="image-container">
+                <div class="thumbnail-bar">
+                    <img src="new Capas/Saveiro summer 2 capa new.jpeg" alt="Imagem 1" class="thumbnail" onclick="changeImage('new Capas/Saveiro summer 2 capa new.jpeg')">
+                    <img src="new var/Saveiro summer 2 interna new.jpeg" alt="Imagem 2" class="thumbnail" onclick="changeImage('new var/Saveiro summer 2 interna new.jpeg')">
+                    <img src="new var/Saveiro summer 2 motor new.jpeg" alt="Imagem 3" class="thumbnail" onclick="changeImage('new var/Saveiro summer 2 motor new.jpeg')">
+                    <img src="new var/Saveiro summer 2 traseira 2 new.jpeg" alt="Imagem 4" class="thumbnail" onclick="changeImage('new var/Saveiro summer 2 traseira 2 new.jpeg')">
+                    <img src="new var/Saveiro summer 2 traseira new.jpeg" alt="Imagem 5" class="thumbnail" onclick="changeImage('new var/Saveiro summer 2 traseira new.jpeg')">
+                </div>
+                
+                <div class="image-zoom-container"> 
+                    <div class="main-image">
+                        <img id="main-img" src="new Capas/Saveiro summer 2 capa new.jpeg" alt="Volkswagen Saveiro Summer">
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-info">
+                <div class="info-item">
+                    <strong>Marca:</strong> Volkswagen
+                </div>
+                <div class="info-item">
+                    <strong>Modelo:</strong> Saveiro Summer
+                </div>
+                <div class="info-item">
+                    <strong>Ano:</strong> 1996
+                </div>
+                <div class="info-item">
+                    <strong>Motor:</strong> 1.8
+                </div>
+                <div class="info-item">
+                    <strong>Status:</strong> Básica
+                </div>
+                <div class="info-item">
+                    <strong>Preço FIPE:</strong> R$ 28.799,00
+                </div>
+                <div class="info-item">
+                    <strong>Preço de Venda:</strong> R$ 24.000,00
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Veneza Multimarcas</p>
+        <p>&copy; 2025 - LuizEduardoFA</p>
+    </footer>
+    
+    <script>
+        // Função para mudar a imagem principal ao clicar nas miniaturas
+        function changeImage(src) {
+            document.getElementById('main-img').src = src;
+        }
+    </script>
+    
+</body>
+</html>
