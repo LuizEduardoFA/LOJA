@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onix Joy</title>
+    <link rel="stylesheet" href="desc.css">
+</head>
+<body>
+    <header>
+        <h1>Onix Joy</h1>
+        <a href="index.html" class="back-link">
+            <span class="back-icon">←</span> Voltar para o catálogo
+        </a>
+    </header>
+    <main>
+        <section class="car-details">
+
+            <div class="image-container">
+                <div class="thumbnail-bar">
+                    <img src="Variantes/capa onix v.jpeg" alt="Imagem 1" class="thumbnail" onclick="changeImage('Variantes/capa onix v.jpeg')">
+                    <img src="Variantes/onix joy v 1.jpeg" alt="Imagem 2" class="thumbnail" onclick="changeImage('Variantes/onix joy v 1.jpeg')">
+                    <img src="Variantes/onix joy v 5.jpeg" alt="Imagem 3" class="thumbnail" onclick="changeImage('Variantes/onix joy v 5.jpeg')">
+                    <img src="Variantes/onix joy v 6.jpeg" alt="Imagem 4" class="thumbnail" onclick="changeImage('Variantes/onix joy v 6.jpeg')">
+                    <img src="Variantes/onix joy v 7.jpeg" alt="Imagem 5" class="thumbnail" onclick="changeImage('Variantes/onix joy v 7.jpeg')">
+                </div>
+                
+                <div class="image-zoom-container"> 
+                    <div class="main-image">
+                        <img id="main-img" src="Variantes/capa onix v.jpeg" alt="Chevrolet Onix Joy">
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-info">
+                <div class="info-item">
+                    <strong>Marca:</strong> Chevrolet
+                </div>
+                <div class="info-item">
+                    <strong>Modelo:</strong> Onix Joy
+                </div>
+                <div class="info-item">
+                    <strong>Ano:</strong> 2019
+                </div>
+                <div class="info-item">
+                    <strong>Ar condicionado</strong> 
+                </div>
+                <div class="info-item">
+                    <strong>Direção Hidráulica</strong>
+                </div>
+                <div class="info-item">
+                    <strong>Vidro Elétrico</strong> 
+                </div>
+                <div class="info-item">
+                    <strong>Trava Elétrica</strong>
+                </div>
+                <div class="info-item">
+                    <strong>Segurança:</strong> Airbags e ABS
+                </div>
+                <div class="info-item">
+                    <strong>Motor:</strong> 1.0 (Econômico)
+                </div>
+                <div class="info-item">
+                    <strong>Preço:</strong> R$ 53.000,00
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Veneza Multimarcas</p>
+        <p>&copy; 2025 - LuizEduardoFA</p>
+    </footer>
+    
+    <script>
+        // Função para mudar a imagem principal ao clicar nas miniaturas
+        function changeImage(src) {
+            document.getElementById('main-img').src = src;
+        }
+    </script>
+    
+</body>
+</html>
